@@ -154,8 +154,3 @@ Z delom v makrociklih, bi nemara na nek način lahko celo vplivali na to, kako d
 - **Četrtek:** fokusiran trening v Minimundo - delayed step v intervalih 6x 10 min (delayed na 4, na 1, na 4, na 1, nato 2x oboje), med vsakim intervalom kratka pavza, 1h30
 - **Sobota:** prvi del partyja vadim delayed na 1 in 4, 1h
 :::
-
-<figure>
-<img src="../images/03-1-tekmovalni-nastop.jpg" alt="Plesni par med tekmovalnim nastopom: plesalka v obratu, plesalec jo vodi z dvignjeno roko." />
-<figcaption>Plesni par med tekmovalnim nastopom.</figcaption>
-</figure>

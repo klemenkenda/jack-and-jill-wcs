@@ -48,6 +48,11 @@ Na privatno uro običajno pripeljemo partnerja (rečemo mu tudi *dummy*). To je 
 **Povratne informacije za sodnika:** Ogled posnetka bo predstavljal tudi povratno informacijo za sodnika. Imel bo priložnost, da si ogleda vaš celoten ples in pri sebi vidi, če je mogoče ples opazoval ravno v tistem trenutku, ko je šlo nekaj narobe.
 :::
 
+<figure>
+<img src="../images/03-3-video-analiza.jpg" alt="Plesalka si na telefonu ogleduje posnetek tekmovalnega nastopa." />
+<figcaption>Video analiza tekmovalnega nastopa.</figcaption>
+</figure>
+
 Koristno je, če vodite dnevnik lekcij, ki ste jih dobili na privatnih urah (primer je na spodnji sliki). Bistveno je, da si zabeležite, kaj morate popraviti, da imate neko navodilo, kako to popraviti (npr. povezavo na video posnetek, lahko prek datuma in učitelja) in nek indikator, kako uspešni ste bili pri treningu. 
 
 <figure>
