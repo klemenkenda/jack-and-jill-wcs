@@ -44,12 +44,28 @@
 // Headings share the epub's Literata-bold-everywhere treatment; a
 // chapter (h1) is also a natural place to start a fresh printed page,
 // which the EPUB doesn't need (pandoc's --split-level already gives it
-// one XHTML file per chapter) but a paginated PDF does.
+// one XHTML file per chapter) but a paginated PDF does. The page break
+// itself, and — for numbered chapters — a big colored numeral above the
+// title, come from #chapter_marker/#pagebreak calls that
+// scripts/pdf-filter.lua inserts as a sibling block right before each
+// level-1 heading; this show rule only lays out the title text itself.
 #show heading: set text(font: "Literata", weight: "bold")
-#show heading.where(level: 1): it => {
+
+// Called from scripts/pdf-filter.lua, once per numbered chapter (not for
+// unnumbered front/back matter, which has no number to show).
+#let chapter_marker(num, color) = {
   pagebreak(weak: true)
-  v(4mm)
-  text(size: 18pt)[#it.body]
+  v(16mm)
+  align(center)[
+    #text(size: 56pt, weight: "bold", font: "Literata", fill: color)[#num]
+    #v(3mm)
+    #line(length: 40%, stroke: 1.5pt + color)
+  ]
+  v(8mm)
+}
+
+#show heading.where(level: 1): it => {
+  align(center)[#text(size: 19pt)[#it.body]]
   v(8mm)
 }
 #show heading.where(level: 2): it => { v(2mm); text(size: 14pt)[#it.body]; v(2mm) }

@@ -25,6 +25,17 @@ Typst markup instead of being silently flattened or stripped:
    epub-style.css gives the EPUB.
 ]]
 
+-- Cycled by chapter number (1-indexed) for the big chapter-opener numeral;
+-- matching text(fill: ...) colors are defined once in pdf-template.typ.
+local CHAPTER_COLORS = {
+  "#2e7d32", -- green
+  "#4a7fc1", -- blue
+  "#c9a227", -- gold (a *readable* yellow — flat #ffff00 has almost no
+             -- contrast against white paper)
+  "#c0392b", -- red
+  "#8e44ad", -- violet
+}
+
 local DIV_CLASS_FUNCS = {
   box = "book_box",
   glossary = "book_glossary",
@@ -74,6 +85,61 @@ function RawBlock(el)
     end
     return {}
   end
+end
+
+-- Chapter openers (level-1 headings) get a full redesign: a big colored
+-- numeral + rule instead of an inline "3. " prefix, cycling through
+-- CHAPTER_COLORS by chapter number. scripts/build.py bakes that "3. "
+-- prefix into the heading text for *both* formats (numbering has to be
+-- computed once, identically, for the EPUB and the PDF to agree), so it
+-- has to be peeled back off again here, PDF-side only. The extracted
+-- number becomes a separate typst function call (#chapter_marker, defined
+-- in pdf-template.typ) inserted as a sibling block *before* the heading,
+-- rather than folded into the heading's own body — the body is what the
+-- running header (see pdf-template.typ) shows verbatim, and it shouldn't
+-- try to lay out a 56pt numeral inline.
+--
+-- #outline() still needs *some* number for this chapter's row, though
+-- (unlike the running header, it sits next to unnumbered ZAHVALE/VIRI
+-- rows, so "no number" reads as a level rather than a stylistic choice).
+-- It gets one via typst's own per-heading `numbering` override: passing a
+-- constant closure (rather than `#set heading(numbering: ...)` globally,
+-- which would also number ZAHVALE/VIRI) puts our own already-computed
+-- number in the outline's number column without it also being baked into
+-- the heading body text that the in-page show rule and running header
+-- read from.
+function Header(el)
+  if el.level ~= 1 then
+    return nil
+  end
+  if el.content[1] and el.content[1].t == "Str" then
+    local num, rest = el.content[1].text:match("^(%d+)%.(.*)$")
+    if num then
+      local new_content = pandoc.List({})
+      local start_idx = 2
+      if rest ~= "" then
+        new_content:insert(pandoc.Str(rest))
+      elseif el.content[2] and el.content[2].t == "Space" then
+        start_idx = 3
+      end
+      for i = start_idx, #el.content do
+        new_content:insert(el.content[i])
+      end
+
+      local color = CHAPTER_COLORS[((tonumber(num) - 1) % #CHAPTER_COLORS) + 1]
+      local marker = pandoc.RawBlock("typst", string.format(
+        '#chapter_marker("%02d", rgb("%s"))', tonumber(num), color
+      ))
+      local heading_open = pandoc.RawBlock("typst", string.format(
+        '#heading(level: 1, numbering: (..) => "%s.")[', num
+      ))
+      local heading_close = pandoc.RawBlock("typst", "]")
+      return { marker, heading_open, pandoc.Plain(new_content), heading_close }
+    end
+  end
+  -- Unnumbered level-1 heading (front/back matter, e.g. ZAHVALE): still
+  -- gets its own page, just no numeral/color/outline number.
+  return { pandoc.RawBlock("typst", "#pagebreak(weak: true)"), el }
 end
 
 function Div(el)
