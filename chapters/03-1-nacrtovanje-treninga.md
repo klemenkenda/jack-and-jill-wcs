@@ -77,25 +77,7 @@ V nekem trenutku, običajno je to začetek plesne sezone, ki ga lahko postavimo 
 
 V plesu se sistema SMART(ER) in CLEAR dopolnjujeta. Prvi sistem zagotavlja stukturiranost, logičnost in jasne cilje, osredotočen je na merljivost in realnost (odličen za pripravo na Jack and Jill v nižjih kategorijah, kjer je poudark na individualni tehniki). Drugi sistem zagotavlja prilagodljivost, vključuje čustveno komponento in dinamično okolje, osredotočen je na motiviranje in sodelovanje (primernejši je za umetniške in skupinske cilje, npr. pripravo rutin, strictly).
 
-Več o oblikovanju konkretnih plesnih ciljev si preberite v razdelku o privatnih urah (spodaj). 
-
-##### DRUŽABNI PLES \- PARTNERSTVO
-
-::: box
-Detailed instructions
-:::
-
-##### TEHNIČNI CILJI
-
-::: box
-Detailed instructions
-:::
-
-##### TEKMOVALNI CILJI
-
-::: box
-Detailed instructions
-:::
+Več o oblikovanju konkretnih plesnih ciljev si preberite v razdelku o privatnih urah (spodaj).
 
 ### Ciklizacija treninga
 
@@ -105,7 +87,7 @@ Namen ciklizacije je **preprečevanje preobremenitev**, **optimizacija forme** i
 
 #### Cikli
 
-V teoriji poznamo naslednjo hierarhična struktura vadbenih enot oz. ciklov. 
+V teoriji poznamo naslednjo hierarhična struktura vadbenih enot oz. ciklov.
 
 <figure>
 <img src="../images/03-1-makrocikel-diagram.jpg" alt="Diagram: en makrocikel (6-12 mesecev) se deli na tri mezocikle (2-8 tednov), vsak od njih pa na tri mikrocikle (1 teden), ki so sestavljeni iz posameznih treningov." />
@@ -153,4 +135,4 @@ Z delom v makrociklih, bi nemara na nek način lahko celo vplivali na to, kako d
 - **Sreda:** fitnes - poudarek na rokah in zgornjem delu hrbta
 - **Četrtek:** fokusiran trening v Minimundo - delayed step v intervalih 6x 10 min (delayed na 4, na 1, na 4, na 1, nato 2x oboje), med vsakim intervalom kratka pavza, 1h30
 - **Sobota:** prvi del partyja vadim delayed na 1 in 4, 1h
-:::
+  :::
