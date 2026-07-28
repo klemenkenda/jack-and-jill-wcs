@@ -1,4 +1,4 @@
-## KAKO SE SOOČATI Z REZULTATI
+## Kako se soočati z rezultati
 
 > Večina tekmovalcev v west coast swingu ob soočanju z rezultati tekmovanj doživlja občutke razočaranja. Sistem sam deluje tako, da boš večino svoje tekmovalne kariere preživel kot neuspešen tekmovalec.
 

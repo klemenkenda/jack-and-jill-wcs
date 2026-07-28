@@ -41,6 +41,13 @@ import sys
 import tempfile
 from pathlib import Path
 
+# Chapter/section titles are Slovenian (č/š/ž etc.); Windows terminals often
+# default stdout to cp1252, which can't encode them, crashing any print()
+# of a version-bump note that names a new section.
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent.parent  # project root (scripts/ is one level down)
 CHAPTERS_DIR = ROOT / "chapters"
 METADATA_FILE = ROOT / "metadata.yaml"
@@ -318,12 +325,9 @@ def build_title_page_typst(metadata: dict, version_str: str) -> str:
 
     title_lines = metadata.get("title-lines") or [metadata.get("title", "")]
 
-    title_page_call = "#title_page({}, {}, {}, {}, {}, {})".format(
+    title_page_call = "#title_page({}, {}, {})".format(
         typst_str_array(title_lines),
-        typst_str(metadata.get("subtitle", "")),
         typst_str(metadata.get("author", "")),
-        typst_str(metadata.get("publisher", "")),
-        typst_str(version_str),
         typst_str(cover_path),
     )
     impressum_call = "#impressum_page({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})".format(

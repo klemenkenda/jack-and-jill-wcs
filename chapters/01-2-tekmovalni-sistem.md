@@ -1,4 +1,4 @@
-## TEKMOVALNI SISTEM
+## Tekmovalni sistem
 
 > Kot vsak tekmovalni šport, ima tudi west coast swing definiran tekmovalni sistem, ki vključuje vse od definicij vrst tekmovanj do opisa sistema točkovanj.
 

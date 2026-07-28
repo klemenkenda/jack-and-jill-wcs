@@ -1,4 +1,4 @@
-## KRITERIJI
+## Kriteriji
 
 ### Splošno
 

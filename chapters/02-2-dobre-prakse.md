@@ -1,4 +1,4 @@
-## DOBRE PRAKSE
+## Dobre prakse
 
 > Ta razdelek prinaša nekaj dobrih praks, ki nam pomagajo pri uspešnem nastopu na tekmovanju.
 

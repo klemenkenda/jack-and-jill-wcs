@@ -15,6 +15,17 @@
 #let accent-blue = rgb("#4a7fc1")
 #let accent-green = rgb("#3f9d63")
 
+// Updated once per chapter by #chapter_marker/#chapter_marker_plain
+// (scripts/pdf-filter.lua inserts a call to one of those as a sibling
+// block right before every level-1 heading) — read by the running header
+// below and by the h2/h3 color show rules further down. Deliberately
+// *not* `query(heading.where(level: 1).before(here()))`: that also
+// matched #outline()'s own internal (non-outlined) heading for its
+// "Kazalo vsebine" title, which clobbered the running header with
+// "KAZALO VSEBINE" on every chapter's opening page.
+#let chapter-title = state("chapter-title", "")
+#let current-chapter-color = state("current-chapter-color", rgb("#16232e"))
+
 #set text(font: "Literata", size: 10pt, lang: "sl")
 #set par(justify: true, leading: 0.65em)
 #set page(
@@ -28,12 +39,10 @@
     // grows without remembering to opt back out here too.
     let page-num = here().page()
     if page-num > 2 {
-      let chapters = query(heading.where(level: 1).before(here()))
-      if chapters.len() > 0 {
+      let t = chapter-title.get()
+      if t != "" {
         align(center)[
-          #text(size: 8pt, style: "italic", tracking: 0.5pt)[
-            #upper(chapters.last().body)
-          ]
+          #text(size: 8pt, style: "italic", tracking: 0.5pt)[#upper(t)]
         ]
       }
     }
@@ -74,7 +83,7 @@
 // construction. measure() (which needs `context`, since width depends on
 // how the font actually shapes the text) gives the natural width to
 // scale from.
-#let title_page(title-lines, subtitle, author, publisher, version, cover-path) = {
+#let title_page(title-lines, author, cover-path) = {
   page(margin: 0pt, header: none, footer: none, fill: white)[
     #place(top + left, image(cover-path, width: 100%, height: 100%, fit: "cover"))
     #place(top + left, dx: 10mm, dy: 12mm)[
@@ -95,15 +104,7 @@
     ]
     #place(bottom + right, dx: -10mm, dy: -12mm)[
       #block(fill: rgb(255, 255, 255, 217), inset: (x: 4mm, y: 3mm), radius: 2pt)[
-        #align(right)[
-          #text(font: title-font, size: 12pt, style: "italic", fill: title-text-color)[#subtitle]
-          #v(3mm)
-          #text(font: title-font, size: 10pt, fill: title-text-color)[verzija #version]
-          #v(4mm)
-          #text(font: title-font, size: 10.5pt, weight: "bold", fill: title-text-color)[#author]
-          #linebreak()
-          #text(font: title-font, size: 8.5pt, style: "italic", fill: title-text-color)[#publisher]
-        ]
+        #text(font: title-font, size: 10.5pt, weight: "bold", fill: title-text-color)[#author]
       ]
     ]
   ]
@@ -164,8 +165,12 @@
 #show heading: set text(font: "Literata", weight: "bold")
 
 // Called from scripts/pdf-filter.lua, once per numbered chapter (not for
-// unnumbered front/back matter, which has no number to show).
-#let chapter_marker(num, color) = {
+// unnumbered front/back matter — see chapter_marker_plain for that).
+// Besides drawing the numeral, this is what feeds the running header
+// and the h2/h3 color show rules below for the rest of the chapter.
+#let chapter_marker(num, color, title) = {
+  chapter-title.update(title)
+  current-chapter-color.update(color)
   pagebreak(weak: true)
   v(16mm)
   align(center)[
@@ -176,12 +181,25 @@
   v(8mm)
 }
 
+// Front/back matter (ZAHVALE, VIRI IN LITERATURA, ...): still its own
+// page and still updates the running header, just with no numeral and a
+// neutral (rather than stale-leftover-chapter) heading color.
+#let chapter_marker_plain(title) = {
+  chapter-title.update(title)
+  current-chapter-color.update(title-text-color)
+  pagebreak(weak: true)
+}
+
 #show heading.where(level: 1): it => {
   align(center)[#text(size: 19pt)[#it.body]]
   v(8mm)
 }
-#show heading.where(level: 2): it => { v(2mm); text(size: 14pt)[#it.body]; v(2mm) }
-#show heading.where(level: 3): it => { v(1.5mm); text(size: 12pt)[#it.body]; v(1.5mm) }
+#show heading.where(level: 2): it => context {
+  v(2mm); text(size: 14pt, fill: current-chapter-color.get())[#it.body]; v(2mm)
+}
+#show heading.where(level: 3): it => context {
+  v(1.5mm); text(size: 12pt, fill: current-chapter-color.get())[#it.body]; v(1.5mm)
+}
 #show heading.where(level: 4): it => { v(1mm); text(size: 10.5pt)[#it.body]; v(1mm) }
 #show heading.where(level: 5): it => { v(1mm); text(size: 10pt)[#it.body]; v(1mm) }
 

@@ -1,4 +1,4 @@
-## PRIVATNE URE
+## Privatne ure
 
 > Privatne ure so namenjene pospešenemu pridobivanju znanja, ki je prikrojeno našim potrebam. Po privatni uri si lahko obetate, da boste prišli do seznama stvari, ki jih morate popraviti in recepta, kako to storiti.
 

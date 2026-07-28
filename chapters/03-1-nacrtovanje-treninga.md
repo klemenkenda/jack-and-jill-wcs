@@ -1,4 +1,4 @@
-## NAČRTOVANJE TRENINGA
+## Načrtovanje treninga
 
 ### Lastnosti WCS
 

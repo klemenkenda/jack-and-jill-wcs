@@ -87,6 +87,10 @@ function RawBlock(el)
   end
 end
 
+local function typst_string_literal(s)
+  return '"' .. s:gsub("\\", "\\\\"):gsub('"', '\\"') .. '"'
+end
+
 -- Chapter openers (level-1 headings) get a full redesign: a big colored
 -- numeral + rule instead of an inline "3. " prefix, cycling through
 -- CHAPTER_COLORS by chapter number. scripts/build.py bakes that "3. "
@@ -95,9 +99,9 @@ end
 -- has to be peeled back off again here, PDF-side only. The extracted
 -- number becomes a separate typst function call (#chapter_marker, defined
 -- in pdf-template.typ) inserted as a sibling block *before* the heading,
--- rather than folded into the heading's own body — the body is what the
--- running header (see pdf-template.typ) shows verbatim, and it shouldn't
--- try to lay out a 56pt numeral inline.
+-- rather than folded into the heading's own body — the body is what
+-- #outline() shows verbatim, and it shouldn't try to lay out a 56pt
+-- numeral inline.
 --
 -- #outline() still needs *some* number for this chapter's row, though
 -- (unlike the running header, it sits next to unnumbered ZAHVALE/VIRI
@@ -106,40 +110,53 @@ end
 -- constant closure (rather than `#set heading(numbering: ...)` globally,
 -- which would also number ZAHVALE/VIRI) puts our own already-computed
 -- number in the outline's number column without it also being baked into
--- the heading body text that the in-page show rule and running header
--- read from.
+-- the heading body text that the in-page show rule reads from.
+--
+-- chapter_marker/chapter_marker_plain also stash the plain-text title and
+-- (for numbered chapters) the chosen color into typst state, which the
+-- running header and the h2/h3 color show rules (pdf-template.typ) read
+-- back — *not* a `query(heading.where(level: 1).before(here()))`, which
+-- was the original approach but turned out to also match #outline()'s own
+-- (non-outlined) internal heading for its "Kazalo vsebine" title,
+-- clobbering the running header on every chapter's first page.
 function Header(el)
-  if el.level ~= 1 then
-    return nil
-  end
-  if el.content[1] and el.content[1].t == "Str" then
-    local num, rest = el.content[1].text:match("^(%d+)%.(.*)$")
-    if num then
-      local new_content = pandoc.List({})
-      local start_idx = 2
-      if rest ~= "" then
-        new_content:insert(pandoc.Str(rest))
-      elseif el.content[2] and el.content[2].t == "Space" then
-        start_idx = 3
-      end
-      for i = start_idx, #el.content do
-        new_content:insert(el.content[i])
-      end
+  if el.level == 1 then
+    if el.content[1] and el.content[1].t == "Str" then
+      local num, rest = el.content[1].text:match("^(%d+)%.(.*)$")
+      if num then
+        local new_content = pandoc.List({})
+        local start_idx = 2
+        if rest ~= "" then
+          new_content:insert(pandoc.Str(rest))
+        elseif el.content[2] and el.content[2].t == "Space" then
+          start_idx = 3
+        end
+        for i = start_idx, #el.content do
+          new_content:insert(el.content[i])
+        end
 
-      local color = CHAPTER_COLORS[((tonumber(num) - 1) % #CHAPTER_COLORS) + 1]
-      local marker = pandoc.RawBlock("typst", string.format(
-        '#chapter_marker("%02d", rgb("%s"))', tonumber(num), color
-      ))
-      local heading_open = pandoc.RawBlock("typst", string.format(
-        '#heading(level: 1, numbering: (..) => "%s.")[', num
-      ))
-      local heading_close = pandoc.RawBlock("typst", "]")
-      return { marker, heading_open, pandoc.Plain(new_content), heading_close }
+        local title_text = pandoc.utils.stringify(new_content)
+        local color = CHAPTER_COLORS[((tonumber(num) - 1) % #CHAPTER_COLORS) + 1]
+        local marker = pandoc.RawBlock("typst", string.format(
+          '#chapter_marker("%02d", rgb("%s"), %s)',
+          tonumber(num), color, typst_string_literal(title_text)
+        ))
+        local heading_open = pandoc.RawBlock("typst", string.format(
+          '#heading(level: 1, numbering: (..) => "%s.")[', num
+        ))
+        local heading_close = pandoc.RawBlock("typst", "]")
+        return { marker, heading_open, pandoc.Plain(new_content), heading_close }
+      end
     end
+    -- Unnumbered level-1 heading (front/back matter, e.g. ZAHVALE): still
+    -- gets its own page, just no numeral/color/outline number.
+    local title_text = pandoc.utils.stringify(el.content)
+    local marker = pandoc.RawBlock("typst", string.format(
+      "#chapter_marker_plain(%s)", typst_string_literal(title_text)
+    ))
+    return { marker, el }
   end
-  -- Unnumbered level-1 heading (front/back matter, e.g. ZAHVALE): still
-  -- gets its own page, just no numeral/color/outline number.
-  return { pandoc.RawBlock("typst", "#pagebreak(weak: true)"), el }
+  return nil
 end
 
 function Div(el)

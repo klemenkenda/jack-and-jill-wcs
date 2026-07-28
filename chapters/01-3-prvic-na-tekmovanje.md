@@ -1,4 +1,4 @@
-## PRVIČ NA TEKMOVANJE
+## Prvič na tekmovanje
 
 ### Korak za korakom
 

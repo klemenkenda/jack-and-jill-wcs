@@ -1,4 +1,4 @@
-## UVOD
+## Uvod
 
 Hej, a tebe so tudi prepričali, da greš na tekmovanje? Nikakor ni samoumevno, da v plesu tekmujemo. Večina se nas je plesa lotila kot družabne aktivnosti, kjer si želimo predvsem druženja in užitka ob gibanju in glasbeni spremljavi. Vsak, ki je v plesu vztrajal dlje časa, je nemara ugotovil, da je plesni užitek pogosto povezan z napredovanjem. V tem kontekstu pa tekmovanja lahko najdejo svoje mesto tudi, če se nočete primerjati z drugimi. 
 
