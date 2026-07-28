@@ -26,15 +26,15 @@ V kategoriji *newcomer* lahko nastopaš samo tako dolgo, dokler ne osvojiš prve
 <table>
 <caption>Prehod med kategorijami v tekmovalnem sistemu WSDC (WSDC, 2025)</caption>
 <thead>
-<tr><th scope="col">Kategorija</th><th scope="col">Opredelitev</th><th scope="col">Allowed (lahko napreduje)</th><th scope="col">Required (mora napredovati)</th></tr>
+<tr><th scope="col">Kategorija</th><th scope="col">Opredelitev</th><th scope="col">Lahko napreduje</th><th scope="col">Mora napredovati</th></tr>
 </thead>
 <tbody>
-<tr><th scope="row">Champion</th><td>Champions are defined for WSDC Champion Jack and Jill contests.</td><td>1 Champion točka</td><td>10 Champion točk</td></tr>
-<tr><th scope="row">All Star</th><td>All Stars should be extremely competitive.</td><td>150 All Star točk</td><td>225 All Star točk</td></tr>
-<tr><th scope="row">Advanced</th><td>Advanced should be very competitive.</td><td>60 Advanced točk</td><td>90 Advanced točk ali 1+ All Star točka</td></tr>
-<tr><th scope="row">Intermediate</th><td>Intermediate dancers are perfecting their competitive dance skills.</td><td>30+ Intermediate točk</td><td>45+ Intermediate točk ali 1+ Advanced točka</td></tr>
-<tr><th scope="row">Novice</th><td>Novice dancers demonstrate basic dance skills.</td><td>16+ Novice točk</td><td>30+ Novice točk ali 1+ Intermediate točka</td></tr>
-<tr><th scope="row">Newcomer</th><td>Newcomers are new to WSDC competition in their role.</td><td>po lastni presoji tekmovalca</td><td>1+ Newcomer točka ali 1+ Novice točka (glede na vlogo)</td></tr>
+<tr><th scope="row">Champion</th><td>tekmovalci najvišjege divizije</td><td>1 Champion točka</td><td>10 Champion točk</td></tr>
+<tr><th scope="row">All Star</th><td>ekstremno tekmovalni</td><td>150 All Star točk</td><td>225 All Star točk</td></tr>
+<tr><th scope="row">Advanced</th><td>zelo tekmovalni</td><td>60 Advanced točk</td><td>90 Advanced točk ali 1+ All Star točka</td></tr>
+<tr><th scope="row">Intermediate</th><td>izpopolnjujejo tekmovalne plesne veščine</td><td>30+ Intermediate točk</td><td>45+ Intermediate točk ali 1+ Advanced točka</td></tr>
+<tr><th scope="row">Novice</th><td>prikažejo osnovne plesne veščine</td><td>16+ Novice točk</td><td>30+ Novice točk ali 1+ Intermediate točka</td></tr>
+<tr><th scope="row">Newcomer</th><td>novinci na tekmovanjih v določeni vlogi</td><td>po lastni presoji tekmovalca</td><td>1+ Newcomer točka ali 1+ Novice točka (glede na vlogo)</td></tr>
 </tbody>
 </table>
 </div>

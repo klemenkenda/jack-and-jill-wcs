@@ -1,11 +1,22 @@
 ---
 title: "Jack and Jill tekmovanja v WCS"
+# How the title is split across lines specifically on the PDF's title
+# page (see pdf-template.typ's title_page); the epub and the impressum
+# page's title line both still use the single "title" string above.
+title-lines:
+  - "Jack and Jill"
+  - "tekmovanja v WCS"
 subtitle: "Mini priročnik za plesalce"
 author: "Klemen Kenda"
 publisher: "Plesno društvo za razvoj west coast swinga v Sloveniji"
 lang: sl-SI
 rights: "© 2026 Klemen Kenda"
 cover-image: "images/cover.jpg"
+place: "Ljubljana"
+year: 2026
+isbn: ""
+license: "Vse pravice pridržane."
+cover-credit: "Naslovnica: ustvarjena z orodji generativne umetne inteligence."
 accessibilitySummary: "Knjiga vsebuje samo besedilo in slike. Vse slike imajo opisni
   nadomestni besedilni opis (alt), podatkovne tabele so, kjer je bilo to smiselno,
   podane kot pravo besedilo (ne kot slika), sicer pa je vsebina slik povzeta tudi

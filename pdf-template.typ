@@ -21,8 +21,13 @@
   paper: "a5",
   margin: (top: 22mm, bottom: 20mm, left: 18mm, right: 18mm),
   header: context {
+    // Pages 1-2 are the title page and impressum (see title_page/
+    // impressum_page below), both of which use their own #page(...) call
+    // with header/footer explicitly set to none — this condition is a
+    // fallback, not the primary mechanism, in case front matter ever
+    // grows without remembering to opt back out here too.
     let page-num = here().page()
-    if page-num > 1 {
+    if page-num > 2 {
       let chapters = query(heading.where(level: 1).before(here()))
       if chapters.len() > 0 {
         align(center)[
@@ -35,11 +40,118 @@
   },
   footer: context {
     let page-num = here().page()
-    if page-num > 1 {
+    if page-num > 2 {
       align(center)[#text(size: 9pt)[#counter(page).display()]]
     }
   },
 )
+
+// ---- title page ----
+// A full-bleed cover image needs a page with zero margin, different
+// from every other page in the book — #page(..)[..] (as opposed to
+// #set page(..)) scopes its settings to just the page(s) its content
+// spans, so this can override margin/header/footer for one page without
+// touching the #set page() rule above that governs the rest of the book.
+// Title and the rest of the front-matter text sit in translucent white
+// boxes rather than directly on the image, since the cover art has both
+// light and busy/colored regions and plain dark text would lose contrast
+// against whichever one ends up behind a given corner.
+// Every piece of text on the title page shares this one font (Roboto),
+// unlike the rest of the book, which is set in Literata throughout.
+#let title-font = "Roboto"
+#let title-text-color = rgb("#16232e")
+#let title-line2-color = rgb("#a8a8a8") // silver, for title-lines' 2nd+ line
+
+// A5 paper is 148mm wide (see #set page(paper: "a5") above); the title
+// block is capped at 42% of that.
+#let title-max-width = 148mm * 0.42
+
+// `title-lines` is a manual line break (e.g. ("Jack and Jill",
+// "tekmovanja v WCS")), rather than automatic wrapping. Each line gets
+// its *own* font size so its rendered width comes out to exactly
+// title-max-width — i.e. the shorter line is scaled bigger to match, not
+// letter-spaced wider — which also caps the whole block at that width by
+// construction. measure() (which needs `context`, since width depends on
+// how the font actually shapes the text) gives the natural width to
+// scale from.
+#let title_page(title-lines, subtitle, author, publisher, version, cover-path) = {
+  page(margin: 0pt, header: none, footer: none, fill: white)[
+    #place(top + left, image(cover-path, width: 100%, height: 100%, fit: "cover"))
+    #place(top + left, dx: 10mm, dy: 12mm)[
+      #block(fill: rgb(255, 255, 255, 217), inset: (x: 4mm, y: 3mm), radius: 2pt)[
+        #context {
+          let probe-size = 22pt
+          let mk(t, size, color) = text(font: title-font, size: size, weight: "bold", fill: color)[#t]
+          stack(
+            spacing: 4.5mm,
+            ..title-lines.enumerate().map(((i, line)) => {
+              let color = if i == 0 { title-text-color } else { title-line2-color }
+              let w = measure(mk(line, probe-size, color)).width
+              mk(line, probe-size * (title-max-width / w), color)
+            }),
+          )
+        }
+      ]
+    ]
+    #place(bottom + right, dx: -10mm, dy: -12mm)[
+      #block(fill: rgb(255, 255, 255, 217), inset: (x: 4mm, y: 3mm), radius: 2pt)[
+        #align(right)[
+          #text(font: title-font, size: 12pt, style: "italic", fill: title-text-color)[#subtitle]
+          #v(3mm)
+          #text(font: title-font, size: 10pt, fill: title-text-color)[verzija #version]
+          #v(4mm)
+          #text(font: title-font, size: 10.5pt, weight: "bold", fill: title-text-color)[#author]
+          #linebreak()
+          #text(font: title-font, size: 8.5pt, style: "italic", fill: title-text-color)[#publisher]
+        ]
+      ]
+    ]
+  ]
+}
+
+// ---- impressum (colophon) page ----
+// `isbn` may be "" (no ISBN assigned yet) — the line is only shown when
+// one is set, rather than printing an empty "ISBN: " placeholder.
+// `city` (not `place`) to avoid shadowing typst's built-in `place()`
+// positioning function within this scope.
+#let impressum_page(
+  title, subtitle, author, publisher, city, year, rights, license,
+  cover-credit, version, isbn,
+) = {
+  page(margin: (top: 22mm, bottom: 20mm, left: 18mm, right: 18mm), header: none, footer: none)[
+    #v(1fr)
+    #block(
+      stroke: 0.6pt + rgb("#999999"),
+      inset: (x: 6mm, y: 5mm),
+      radius: 2pt,
+      width: 100%,
+    )[
+      #text(size: 12pt, weight: "bold")[#title]
+      #linebreak()
+      #text(size: 10pt, style: "italic")[#subtitle]
+      #v(5mm)
+      #text(size: 9pt)[
+        #author
+
+        #publisher
+
+        #city, #year
+
+        #v(3mm)
+        #(rights). #(license)
+
+        #v(3mm)
+        verzija #version
+
+        #if isbn != "" [ISBN: #isbn]
+
+        #v(3mm)
+        #text(style: "italic")[#cover-credit]
+      ]
+    ]
+    #v(1fr)
+  ]
+}
 
 // Headings share the epub's Literata-bold-everywhere treatment; a
 // chapter (h1) is also a natural place to start a fresh printed page,

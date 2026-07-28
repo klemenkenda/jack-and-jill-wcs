@@ -291,54 +291,58 @@ def build_epub(processed_files: list[Path], output: Path) -> None:
         print("(epubcheck not found on PATH - skipping structural validation.)")
 
 
-_TYPST_SPECIAL_RE = re.compile(r'([\\#*_`$<>@\[\]~])')
-
-
-def escape_typst(s: str) -> str:
-    """Escape markup-mode-special characters for interpolation into typst source."""
-    return _TYPST_SPECIAL_RE.sub(r'\\\1', s)
-
-
 def load_metadata() -> dict:
     import yaml
     return yaml.safe_load(METADATA_FILE.read_text(encoding="utf-8"))
 
 
+def typst_str(s: str) -> str:
+    """Quote `s` as a typst string literal, for passing metadata text as a
+    function-call argument (title_page(...), impressum_page(...))."""
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def typst_str_array(items: list[str]) -> str:
+    return "(" + ", ".join(typst_str(i) for i in items) + ",)"
+
+
 def build_title_page_typst(metadata: dict, version_str: str) -> str:
-    title = escape_typst(metadata.get("title", ""))
-    subtitle = escape_typst(metadata.get("subtitle", ""))
-    author = escape_typst(metadata.get("author", ""))
-    publisher = escape_typst(metadata.get("publisher", ""))
     cover = metadata.get("cover-image")
+    if not cover or not (ROOT / cover).exists():
+        sys.exit(f"metadata.yaml's cover-image ({cover!r}) is missing — the PDF title page needs it.")
+    # Chapter .typ files live one level below the project root (in a
+    # "chapters" dir mirroring the real layout), so cover-image's
+    # ROOT-relative path needs a "../" to reach it from there — same
+    # convention the chapter markdown already uses for figures.
+    cover_path = f"../{cover}"
 
-    cover_block = ""
-    if cover and (ROOT / cover).exists():
-        # Chapter .typ files live one level below the project root (in a
-        # "chapters" dir mirroring the real layout), so cover-image's
-        # ROOT-relative path needs a "../" to reach it from there — same
-        # convention the chapter markdown already uses for figures.
-        cover_block = f'#image("../{cover}", width: 38%)\n#v(1fr)\n'
+    title_lines = metadata.get("title-lines") or [metadata.get("title", "")]
 
-    # `1fr` spacers (rather than fixed mm gaps) size themselves to
-    # whatever room is left on the page, so the title block is always
-    # vertically centered and never overflows onto a second page
-    # regardless of how long the title/subtitle/publisher text is.
+    title_page_call = "#title_page({}, {}, {}, {}, {}, {})".format(
+        typst_str_array(title_lines),
+        typst_str(metadata.get("subtitle", "")),
+        typst_str(metadata.get("author", "")),
+        typst_str(metadata.get("publisher", "")),
+        typst_str(version_str),
+        typst_str(cover_path),
+    )
+    impressum_call = "#impressum_page({}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {})".format(
+        typst_str(metadata.get("title", "")),
+        typst_str(metadata.get("subtitle", "")),
+        typst_str(metadata.get("author", "")),
+        typst_str(metadata.get("publisher", "")),
+        typst_str(metadata.get("place", "")),
+        typst_str(str(metadata.get("year", ""))),
+        typst_str(metadata.get("rights", "")),
+        typst_str(metadata.get("license", "")),
+        typst_str(metadata.get("cover-credit", "")),
+        typst_str(version_str),
+        typst_str(metadata.get("isbn", "") or ""),
+    )
+
     return f"""
-#align(center)[
-  #v(1fr)
-{cover_block}
-  #text(size: 22pt, weight: "bold", font: "Literata")[{title}]
-  #v(4mm)
-  #text(size: 13pt, style: "italic")[{subtitle}]
-  #v(1fr)
-  #text(size: 11pt)[verzija {version_str}]
-  #v(1fr)
-  #text(size: 11pt)[{author}]
-  #v(2mm)
-  #text(size: 9pt, style: "italic")[{publisher}]
-  #v(1fr)
-]
-#pagebreak(weak: true)
+{title_page_call}
+{impressum_call}
 #outline(depth: 3, title: [Kazalo vsebine])
 #pagebreak(weak: true)
 """
