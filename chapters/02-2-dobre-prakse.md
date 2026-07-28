@@ -37,6 +37,6 @@ Količina navodil naj bo majhna. Ena do tri stvari. Več ne, ker vas zmede oz. p
 :::
 
 <figure>
-<img src="../images/02-2-veselje-po-rezultatih.jpg" alt="Objem dveh plesalcev na plesišču po razglasitvi rezultatov, okoli njiju sedi in ploska občinstvo z zastavami različnih držav v ozadju." />
+<img src="../images/02-2-veselje-po-rezultatih.jpg" alt="Plesalka in plesalec si veselo udarita v dlan po podelitvi nagrade, v ozadju ploska in navija občinstvo z mavričnimi zastavami." />
 <figcaption>Veselje po razglasitvi rezultatov.</figcaption>
 </figure>

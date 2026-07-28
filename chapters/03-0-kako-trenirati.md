@@ -13,8 +13,3 @@ WCS bi se dalo učiti skoraj popolnoma brez kompliciranih figur, izključno s te
 Kvaliteto plesa laiki pogosto ocenjujejo(mo) s kompliciranostjo figur in atraktivnostjo vložkov. Izurjeno WCS oko pa hitro opazi, kdaj so te figure prekomplicirane, kdaj niso kontrolirano izvedene, kdaj zmanjka komunikacije in povezave med plesalcema, kdaj je figura pretežka in plesalca vrže iz ritma ipd. To velja celo za družabno obliko plesa, kjer se daleč najbolj cenijo dobra povezava med plesalcema, komunikacija, muzikaličnost, domiselnost in duhovitost. Vse te prvine so med seboj prepletene, temeljijo pa predvsem na dobri povezavi med plesalcema. Te pa ni brez tehnične dovršenosti, ki se navsezadnje ocenjuje tudi na tekmovanjih.
 
 Vsebina, ki jo mora obvladati plesalec, krepko presega okvire te knjižice, zato v nadaljevanju sledi nekaj nasvetov, kako priti do znanja v Sloveniji. Več pa si lahko nadebudni bralec prebere v knjigi Benjija Schwimmerja o tehniki WCS (Schwimmer, 2025\) ali se pouči pri kakšnem on-line izobraževanju priznanega učiteljskega para. Vsebine, ki so javno dostopne na YouTube in podobnih platformah, ponavadi niso nujno kvalitetne in začetniku bo težko ločiti seme od plev.
-
-<figure>
-<img src="../images/03-0-plesna-delavnica.jpg" alt="Učitelja z mikrofoni demonstrirata korak na plesni delavnici, v ozadju vadijo pari udeležencev." />
-<figcaption>Plesna delavnica.</figcaption>
-</figure>
