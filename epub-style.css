@@ -78,6 +78,14 @@ figure {
   margin: 1em 0;
 }
 
+/* A full-page plate that should open a fresh page rather than trail the end
+   of the previous section (FORMATTING.md section 5). Most readers honour
+   this; on ones that don't, the figure just falls back to flowing in place. */
+figure.page-break {
+  page-break-before: always;
+  break-before: page;
+}
+
 figcaption {
   font-size: 0.9em;
   font-style: italic;

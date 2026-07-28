@@ -1,3 +1,8 @@
+<figure class="page-break">
+<img src="../images/01-2-shema-tekmovalnega-sistema.jpg" alt="Shematski pregled: tri vrste tekmovanj (Jack and Jill, Strictly, Rutine) vodijo v skupno lestvico kategorij od Newcomer do Champion (s Sophisticated in Masters ob strani), ki se izvajajo v krogih od predtekmovanja do finala, v formatih all-skate, jam ali spotlight." />
+<figcaption>Shematski pregled tekmovalnega sistema west coast swinga: vrste tekmovanj, kategorije in formati izvedbe.</figcaption>
+</figure>
+
 ## Tekmovalni sistem
 
 > Kot vsak tekmovalni šport, ima tudi west coast swing definiran tekmovalni sistem, ki vključuje vse od definicij vrst tekmovanj do opisa sistema točkovanj.

@@ -71,17 +71,30 @@ local function unescape_markdown_punctuation(text)
   return text:gsub("\\(%p)", "%1")
 end
 
+-- A <figure class="page-break"> (epub-style.css's counterpart rule) is a
+-- full-page plate that should open a fresh page instead of trailing
+-- whatever text precedes it (FORMATTING.md section 5). typst's own #figure
+-- has no notion of this, so it's a plain #pagebreak() inserted as a sibling
+-- block right before the figure, the same trick chapter_marker uses for
+-- level-1 headings.
+function Figure(el)
+  if el.classes:includes("page-break") then
+    return { pandoc.RawBlock("typst", "#pagebreak(weak: true)"), el }
+  end
+  return nil
+end
+
 function RawBlock(el)
   if el.format == "html" then
     local ok, doc = pcall(pandoc.read, unescape_markdown_punctuation(el.text), "html")
     if ok then
       -- pandoc's filter walk visits each node once; since this content is
       -- being spliced in *after* that walk already passed over this
-      -- RawBlock, nothing would otherwise apply Div/Span below to
+      -- RawBlock, nothing would otherwise apply Div/Span/Figure below to
       -- class-tagged markup living inside a table/figure (e.g. the
-      -- colored val-da/val-ne/val-opcijsko cells) unless it's explicitly
-      -- re-walked with the same filter functions here.
-      return doc.blocks:walk({ Div = Div, Span = Span })
+      -- colored val-da/val-ne/val-opcijsko cells, or a page-break figure)
+      -- unless it's explicitly re-walked with the same filter functions here.
+      return doc.blocks:walk({ Div = Div, Span = Span, Figure = Figure })
     end
     return {}
   end
