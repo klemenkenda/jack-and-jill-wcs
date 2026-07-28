@@ -1,0 +1,22 @@
+{
+  "major": 0,
+  "minor": 4,
+  "patch": 39,
+  "chapters": [
+    "01-0-gremo-na-tekmovanje.md",
+    "02-0-o-ocenjevanju.md",
+    "03-0-kako-trenirati.md"
+  ],
+  "sections": [
+    "UVOD",
+    "TEKMOVALNI SISTEM",
+    "PRVIČ NA TEKMOVANJE",
+    "KRITERIJI",
+    "DOBRE PRAKSE",
+    "KAKO SE SOOČATI Z REZULTATI",
+    "NAČRTOVANJE TRENINGA",
+    "TEČAJI",
+    "PRIVATNE URE",
+    "SAMOSTOJNI TRENING"
+  ]
+}

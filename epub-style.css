@@ -1,0 +1,284 @@
+/* Styling for the EPUB build — mainly aimed at making the book's many
+   two-column glossary/comparison tables readable on an e-reader. */
+
+@font-face {
+  font-family: "Literata";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Literata-Regular.ttf");
+}
+@font-face {
+  font-family: "Literata";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/Literata-Bold.ttf");
+}
+@font-face {
+  font-family: "Literata";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/Literata-Italic.ttf");
+}
+@font-face {
+  font-family: "Literata";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Literata-BoldItalic.ttf");
+}
+
+body {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Body text deliberately has no font-family: FORMATTING.md forbids setting one
+   on body (readers override it anyway), so the embedded Literata typeface is
+   reserved for headings only, where it carries actual typographic meaning. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Literata", serif;
+  font-weight: bold;
+  page-break-after: avoid;
+  break-after: avoid;
+}
+
+pre, code {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  font-family: monospace;
+}
+
+/* Real tables only remain for short, genuinely tabular content (e.g. the
+   SMART/CLEAR acronym breakdowns), so they're free to size to their content
+   instead of being forced to fill the width. `page-break-inside: avoid` is
+   safe here specifically because these tables are short; long free-flowing
+   content lives in `.box`/blockquote instead, which are allowed to break. */
+table {
+  width: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  table-layout: auto;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+caption {
+  font-size: 0.9em;
+  font-style: italic;
+  caption-side: top;
+  text-align: left;
+  margin-bottom: 0.4em;
+}
+
+figure {
+  margin: 1em 0;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.4em;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  vertical-align: top !important;
+  text-align: left;
+  font-size: 0.85em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+th {
+  background-color: #eee;
+  color: #111;
+  font-weight: bold;
+}
+
+/* Glossary term rows are prefixed with a "▸" marker; hang-indent so wrapped
+   lines align under the term text rather than under the marker, like a
+   normal bullet list. Glossary entries are stacked paragraphs (not a table),
+   so they reflow safely at any screen width.
+
+   Each entry also starts with a real, visible **EN**/**SL** word (not
+   CSS-generated content) so the original-vs-translation distinction survives
+   on e-readers with weak CSS support - e.g. FBReader ignores ::before and
+   overrides colors with its own day/night theme, so an earlier
+   badge-via-::before version was invisible there. Bold text on <strong> is
+   about as universally rendered as EPUB gets. The color rules below are a
+   bonus for readers that do support basic class-based CSS; they degrade to
+   plain bold "EN"/"SL" text everywhere else. */
+.glossary p {
+  padding-left: 1.4em;
+  text-indent: -1.4em;
+  margin: 0.6em 0;
+}
+
+/* Indenting the SL entry is a structural (not color) cue, so the EN/SL
+   pairing stays visible even on readers whose day/night theme strips out
+   custom text/background colors entirely. */
+.glossary .gloss-sl { margin-left: 1.4em; }
+
+/* Same blue/green pairing as the note/lead blockquotes elsewhere in the
+   book, so the color language stays consistent across the whole epub. */
+.glossary .tag-en { color: #4a7fc1; }
+.glossary .tag-sl { color: #3f9d63; }
+
+@media (prefers-color-scheme: dark) {
+  .glossary .tag-en { color: #6fa3e0; }
+  .glossary .tag-sl { color: #5cbf85; }
+}
+
+/* Category color coding for the Newcomer/Novice criteria boxes in
+   "KRITERIJI": each "Category → sub-element:" label is colored by which
+   of the 3T/9-element judging categories it belongs to, matching the
+   author's existing color scheme (Timing/Tehnika/Timsko delo/Preostali
+   elementi/Muzikaličnost/Prezentacija). Text-color only (no background),
+   same approach as the glossary EN/SL tags above, so it degrades to plain
+   bold text on readers that strip custom colors. */
+.crit-timing { color: #b8860b; }
+.crit-tehnika { color: #2e7d32; }
+.crit-timsko-delo { color: #4a7fc1; }
+.crit-preostali { color: #c0392b; }
+.crit-muzikalicnost { color: #2c3e70; }
+.crit-prezentacija { color: #8e44ad; }
+
+@media (prefers-color-scheme: dark) {
+  .crit-timing { color: #e0c250; }
+  .crit-tehnika { color: #5cbf85; }
+  .crit-timsko-delo { color: #6fa3e0; }
+  .crit-preostali { color: #e57373; }
+  .crit-muzikalicnost { color: #8fa8d9; }
+  .crit-prezentacija { color: #c58fdb; }
+}
+
+/* "da"/"ne"/"opcijsko" status values in the WSDC round-structure table
+   (TEKMOVALNI SISTEM): same green/red/amber-as-yellow palette as the
+   crit-* criteria colors above, reused here for the same reason (readable
+   on both light and dark, and consistent with the rest of the book's
+   color language) rather than a literal, low-contrast pure yellow. */
+.val-da { color: #2e7d32; }
+.val-ne { color: #c0392b; }
+.val-opcijsko { color: #b8860b; }
+
+@media (prefers-color-scheme: dark) {
+  .val-da { color: #5cbf85; }
+  .val-ne { color: #e57373; }
+  .val-opcijsko { color: #e0c250; }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+figure img {
+  margin: 0 auto;
+}
+
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+
+/* Boxed callouts/list-items (fenced ::: box ::: divs). These replace what
+   used to be single-cell pipe "tables" (a Google Docs export artifact): a
+   <table> can't split across pages, so any cell longer than a page was
+   getting clipped or shoved onto a blank page. A div has no such limit and
+   reflows/paginates like any other block content. */
+.box {
+  margin: 1em 0;
+  padding: 0.6em 1em;
+  border: 1px solid #999;
+  background-color: #f3f3f3;
+  color: #111;
+}
+.box p {
+  margin: 0;
+}
+.box p + p {
+  margin-top: 0.6em;
+}
+.box-title {
+  display: block;
+  font-size: 1.15em;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+
+blockquote {
+  margin: 1.2em 0;
+  padding: 0.4em 1em;
+  background-color: #eaf2fb;
+  color: #10202f;
+  border-left: 0.3em solid #4a7fc1;
+}
+blockquote p {
+  margin: 0;
+}
+
+/* A blockquote directly under a heading is a section "lead" sentence
+   rather than an aside/note, so it gets the same box treatment as a
+   note-style blockquote, just in green instead of blue. Headings as deep
+   as h6 are used for subsection leads in this book, so the rule has to
+   cover the full h1–h6 range, not just h1–h3. */
+h1 + blockquote, h2 + blockquote, h3 + blockquote,
+h4 + blockquote, h5 + blockquote, h6 + blockquote {
+  background-color: #eaf7ee;
+  color: #10241a;
+  border-left: 0.3em solid #3f9d63;
+}
+blockquote p + p {
+  margin-top: 0.6em;
+}
+
+/* Dark-mode/night-mode readers (Apple Books, Thorium, browsers, etc.) apply
+   a dark theme to body text but leave inline background-colors alone unless
+   we account for them here, so every tinted box above needs an explicit
+   dark counterpart or it renders as unreadable dark text on a dark ground
+   or a light-colored box that clashes with the surrounding dark page. */
+@media (prefers-color-scheme: dark) {
+  th {
+    background-color: #333;
+    color: #eee;
+  }
+  .box {
+    background-color: #2a2a2a;
+    color: #eee;
+    border-color: #666;
+  }
+  blockquote {
+    background-color: #1c2b3a;
+    color: #dce8f5;
+    border-left-color: #6fa3e0;
+  }
+  h1 + blockquote, h2 + blockquote, h3 + blockquote,
+  h4 + blockquote, h5 + blockquote, h6 + blockquote {
+    background-color: #1a2e21;
+    color: #dcefe1;
+    border-left-color: #5cbf85;
+  }
+}
+
+/* Pandoc's default epub stylesheet resets the TOC's <ol> to unnumbered
+   (our chapter/section numbers already live in the heading text itself);
+   passing --css replaces that default stylesheet instead of adding to it,
+   so that reset has to be repeated here or every reader shows native
+   "1. 2. 3." list numbering on top of our own "1.1" text. */
+nav#toc ol, nav#landmarks ol {
+  padding: 0;
+  margin-left: 1em;
+  list-style: none;
+}
+nav#toc ol li, nav#landmarks ol li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

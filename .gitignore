@@ -1,0 +1,3 @@
+.backup/
+dist/
+*/__pycache__/

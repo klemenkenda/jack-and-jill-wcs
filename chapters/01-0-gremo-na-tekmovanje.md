@@ -1,0 +1,2 @@
+# Gremo na tekmovanje
+
