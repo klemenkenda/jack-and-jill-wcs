@@ -1,6 +1,6 @@
 ## Uvod
 
-Hej, a tebe so tudi prepričali, da greš na tekmovanje? Nikakor ni samoumevno, da v plesu tekmujemo. Večina se nas je plesa lotila kot družabne aktivnosti, kjer si želimo predvsem druženja in užitka ob gibanju in glasbeni spremljavi. Vsak, ki je v plesu vztrajal dlje časa, je nemara ugotovil, da je plesni užitek pogosto povezan z napredovanjem. V tem kontekstu pa tekmovanja lahko najdejo svoje mesto tudi, če se nočete primerjati z drugimi. 
+Hej, a tebe so tudi prepričali, da greš na tekmovanje? Nikakor ni samoumevno, da v plesu tekmujemo. Večina se nas je plesa lotila kot družabne aktivnosti, kjer si želimo predvsem druženja in užitka ob gibanju in glasbeni spremljavi. Vsak, ki je v plesu vztrajal dlje časa, je nemara ugotovil, da je plesni užitek pogosto povezan z napredovanjem. V tem kontekstu pa tekmovanja lahko najdejo svoje mesto tudi, če se nočete primerjati z drugimi.
 
 Udeležba na tekmovanjih spremeni pogled na ples. Nabor različnih figur, po katerem vsaj moški del populacije hlepi na začetku, naenkrat naleti na še pomembnejšo kategorijo, in sicer na kakovost, ki je nujno pogojena s splošno ali specifično plesno tehniko. Kakovost si lahko v sistemu plesnega znanja predstavljamo kot vertikalo, ki jo horizontalno dopolnjuje konkretna vsebina (figure, deli figur, *footwork*, muzikaličnost ipd.) oz. plesna širina. Na plesnih tekmovanjih se primarno ocenjuje kakovost plesa, ki je predvsem v začetnih kategorijah (*newcomer* in *novice*), pa tudi v kategoriji *intermediate*, omejena na osnovne prvine plesne tehnike: *timing*, tehniko in timsko delo, v tem prioritetnem vrstnem redu.
 
@@ -17,9 +17,7 @@ Da bi bilo negotovosti čim manj, v naslednjem poglavju podajamo slovarček izra
 
 ### Namen
 
-> Plesna tekmovanja v west coast swingu so namenjena predvsem preizkusu lastnega znanja, v sistemu festivalov pa ti rezultati potem pomagajo tudi pri razvrščanju plesalcev v po znanju enakovredne skupine na delavnicah.
-
-> Na različnih stopnjah plesalci namreč osvojijo različne plesne tehnike in znanja, ki se preverjajo na tekmovanjih.
+Plesna tekmovanja v west coast swingu so namenjena predvsem preizkusu lastnega znanja, v sistemu festivalov pa ti rezultati potem pomagajo tudi pri razvrščanju plesalcev v po znanju enakovredne skupine na delavnicah. Na različnih stopnjah delavnic in tečajev plesalci namreč osvojijo različne plesne tehnike in znanja, ki se nato preverjajo na tekmovanjih.
 
 ### Slovarček osnovnih pojmov
 
@@ -68,7 +66,7 @@ Da bi bilo negotovosti čim manj, v naslednjem poglavju podajamo slovarček izra
 :::
 
 ::: {.gloss-sl}
-[**SL**]{.tag-sl} ▸ **Rang**: Razred tekmovanja, ki določa vrednost točk glede na število sodelujočih. Višji rang pomeni več točk za dosežena mesta.
+[**SL**]{.tag-sl} ▸ **Rang** (tudi **Razred velikosti**): Razred tekmovanja, ki določa vrednost točk glede na število sodelujočih. Višji rang pomeni več točk za dosežena mesta.
 :::
 
 ::: {.gloss-en}

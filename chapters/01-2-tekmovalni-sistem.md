@@ -9,7 +9,7 @@
 
 ### Vrste tekmovanj
 
-Glavni tip tekmovanj, na katerega se osredotoča tudi tale priročnik, je ***Jack and Jill*** **(tudi *J’n’J*)**. V naši okolici so razširjena še t. i. **strictly** tekmovanja. Sicer pa poznamo še **rutine** (v divizijah *classic*, *showcase* in *rising star*) in razna zabavna tekmovanja (npr. Sepp & Heidi na Bavarian Open). Posebno dimenzijo predstavlja še divizija ProAm (ki se lahko pojavi v tekmovanjih *Jack and Jill*, *strictly* ali v Evropi predvsem pri rutinah).
+Glavni tip tekmovanj, na katerega se osredotoča tudi tale priročnik, je ***Jack and Jill***. V naši okolici so razširjena še t. i. **strictly** tekmovanja. Sicer pa poznamo še **rutine** (v divizijah *classic*, *showcase* in *rising star*) in razna zabavna tekmovanja (npr. Sepp & Heidi na Bavarian Open). Posebno dimenzijo predstavlja še divizija ProAm (ki se lahko pojavi v tekmovanjih *Jack and Jill*, *strictly* ali v Evropi predvsem pri rutinah).
 
 Tekmovanje ***Jack and Jill*** pomeni, da se na tekmovanje prijaviš posamezno. Partner ti bo dodeljen na licu mesta naključno in z njim boš plesal na naključno skladbo. Med vsakim plesom v izbirnih krogih tekmovanja se boste zamenjali, v finalu pa boste dobili naključnega partnerja, s katerim boste plesali skupaj do konca.
 
@@ -34,17 +34,19 @@ V kategoriji *newcomer* lahko nastopaš samo tako dolgo, dokler ne osvojiš prve
 <tr><th scope="col">Kategorija</th><th scope="col">Opredelitev</th><th scope="col">Lahko napreduje</th><th scope="col">Mora napredovati</th></tr>
 </thead>
 <tbody>
-<tr><th scope="row">Champion</th><td>tekmovalci najvišjege divizije</td><td>1 Champion točka</td><td>10 Champion točk</td></tr>
-<tr><th scope="row">All Star</th><td>ekstremno tekmovalni</td><td>150 All Star točk</td><td>225 All Star točk</td></tr>
-<tr><th scope="row">Advanced</th><td>zelo tekmovalni</td><td>60 Advanced točk</td><td>90 Advanced točk ali 1+ All Star točka</td></tr>
-<tr><th scope="row">Intermediate</th><td>izpopolnjujejo tekmovalne plesne veščine</td><td>30+ Intermediate točk</td><td>45+ Intermediate točk ali 1+ Advanced točka</td></tr>
-<tr><th scope="row">Novice</th><td>prikažejo osnovne plesne veščine</td><td>16+ Novice točk</td><td>30+ Novice točk ali 1+ Intermediate točka</td></tr>
-<tr><th scope="row">Newcomer</th><td>novinci na tekmovanjih v določeni vlogi</td><td>po lastni presoji tekmovalca</td><td>1+ Newcomer točka ali 1+ Novice točka (glede na vlogo)</td></tr>
+<tr><th scope="row">Champion</th><td>tekmovalci najvišjege divizije</td><td>1 champion točka</td><td>10 champion točk</td></tr>
+<tr><th scope="row">All Star</th><td>ekstremno tekmovalni</td><td>150 All Star točk</td><td>225 all star točk</td></tr>
+<tr><th scope="row">Advanced</th><td>zelo tekmovalni</td><td>60 Advanced točk</td><td>90 advanced točk ali 1+ all Star točka</td></tr>
+<tr><th scope="row">Intermediate</th><td>izpopolnjujejo tekmovalne plesne veščine</td><td>30+ intermediate točk</td><td>45+ intermediate točk ali 1+ advanced točka</td></tr>
+<tr><th scope="row">Novice</th><td>prikažejo osnovne plesne veščine</td><td>16+ Novice točk</td><td>30+ novice točk ali 1+ intermediate točka</td></tr>
+<tr><th scope="row">Newcomer</th><td>novinci na tekmovanjih v določeni vlogi</td><td>po lastni presoji tekmovalca</td><td>1+ newcomer točka ali 1+ Novice točka (glede na vlogo)</td></tr>
 </tbody>
 </table>
 </div>
 
-Ko enkrat v svoji primarni plesni vlogi že tekmuješ v eni od višjih kategorij (*novice*\+), potem lahko na istem tekmovanju v nižji kategoriji tekmuješ tudi v svoji sekundarni plesni vlogi. Npr. če tekmuješ kot leader v *novice* in še nimaš osvojenih točk v vlogi *follower* v *newcomer* kategoriji, lahko v tej nastopiš še kot *follower*. Ponavadi v sekundarni vlogi tekmuješ eno kategorijo niže, WSDC pa po 1\. 1\. 2025 omogoča, da brez prošnje (*petition*), ki je bila predhodno potrebna, *advanced* in *all star* tekmovalci tekmujejo celo dve kategoriji niže.
+Ko enkrat v svoji primarni plesni vlogi že tekmuješ v eni od višjih kategorij (*novice*\+), potem lahko na istem tekmovanju v nižji kategoriji tekmuješ tudi v svoji sekundarni plesni vlogi. Npr. če tekmuješ kot leader v *novice* in še nimaš osvojenih točk v vlogi *follower* v *newcomer* kategoriji, lahko v tej nastopiš še kot *follower*. 
+
+> Ponavadi v sekundarni vlogi tekmuješ eno kategorijo niže, WSDC pa po 1\. 1\. 2025 omogoča, da brez prošnje (*petition*), ki je bila predhodno potrebna, *advanced* in *all star* tekmovalci tekmujejo celo dve kategoriji niže.
 
 Poleg teh kategorij obstajajo tudi starostne kategorije. Pri nas najbolje poznamo kategorijo *sophisticated* (odprta kategorija za vse plesalce stare 35 let in več oz. mlajše veterane) in kategorijo *masters* (odprta kategorija za vse plesalce stare 50 let in več oz. veterane). Obstaja tudi mladinska kategorija \- *junior*, v kateri pa se v Evropi skoraj nikjer ne tekmuje (izjema je zaenkrat Francija).
 
@@ -77,7 +79,7 @@ Po 1\. 1\. 2025 je WSDC za kategorije 4\. razreda velikosti zmanjšal število t
 
 ### Potek tekmovanja
 
-Cilj posameznega tekmovanja je izbrati najboljše tekmovalce. Ker je prijavljenih tekmovalcev ponavadi veliko, je nemogoče, da bi sodniki lahko izbrali dokončni vrstni red v samo enem tekmovalnem krogu (ang. *round*). 
+Cilj posameznega tekmovanja je izbrati najboljše tekmovalce. Ker je prijavljenih tekmovalcev ponavadi veliko, je nemogoče, da bi sodniki lahko izbrali dokončni vrstni red v samo enem tekmovalnem krogu (ang. *round*).
 
 Glede na **razred velikosti ali rang (ang. *tier*)** posamezne kategorije, tekmovanja za to kategorijo sestojijo iz več krogov. Če je na tekmovanju npr. 60 *followerjev*, tekmovanje spada v razred velikosti 4, kar narekuje, da je potrebno organizirati predtekmovanje, polfinale in finale. Če na tem tekmovanju nastopi 39 *leaderjev*, bodo le-ti prav tako nastopili v 3 tekmovalnih krogih. Sistem se ravna po največjem številu tekmovalcev v posamezni vlogi v kategoriji. Celotna tabela je prikazana spodaj.
 
@@ -98,7 +100,7 @@ Glede na **razred velikosti ali rang (ang. *tier*)** posamezne kategorije, tekmo
 </table>
 </div>
 
-V primeru, da je v določeni vlogi pri 4\. razredu velikosti manj kot 10% več tekmovalcev, kot jih narekuje zgornja tabela, lahko organizator izpusti organizacijo polfinala, kar skrajša potek tekmovanja (in prinese precej slabe volje tekmovalcem).
+V primeru, da je v določeni vlogi pri 4\. rangu tekmovanja manj kot 10% več tekmovalcev, kot jih narekuje zgornja tabela (kar se na festivalih v naši bližini zgodi pogosto), lahko organizator izpusti organizacijo polfinala, kar skrajša potek tekmovanja (in prinese precej slabe volje tekmovalcem).
 
 #### Tekmovalni krogi
 
@@ -115,8 +117,3 @@ Poznamo še dva formata izvedbe. Tekmovalci se po skupinskem ponavadi najprej sr
 Zadnji format nosi ime ***spotlight***. V tem formatu je na plesišču en sam par, ki odpleše 1 do 2 skladbi. Obrnjen je proti sodnikom/občinstvu. Običajno se ta format uporablja za *advanced+* kategorije, včasih pa nanj naletimo tudi pri kategoriji *intermediate* ali celo *novice* (kot je bil primer na Detonation Dance 2025). Podobno kot pri *jamu*, se tudi ta format običajno dopolnjuje s skupinskim formatom za zadnjo skladbo.
 
 Format izvedbe ni predpisan in je pogosto stvar dogovora med organizatorjem in glavnim sodnikom.
-
-<figure>
-<img src="../images/01-2-vstop-na-tekmovanje.jpg" alt="Ilustracija: novinec skozi vrata z vrtinčastim portalom vstopa na tekmovalno plesišče, kjer sodniki z beležkami spremljajo plesne pare, občinstvo pa ploska." />
-<figcaption>Vstop na svoje prvo tekmovanje.</figcaption>
-</figure>

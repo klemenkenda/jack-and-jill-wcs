@@ -2,11 +2,9 @@
 
 ### Splošno
 
-> WCS je tehnično izjemno zahteven ples. Sistem tekmovanj, sploh v Evropi, že od začetnika zahteva ogromno znanja in veščin. Horizontalne vsebine WCS, ki vsebujejo različne figure, *footworke* ipd. so pri tekmovanjih drugotnega pomena. Važna je predvsem plesna tehnika, ki jo najlažje pokažemo v osnovnih figurah. Poleg tega je ocenjevanje vizualno. Važno je, kako je ples videti, ne kako se čuti. Vsi družabni plesalci pa zelo dobro vemo, da je precej bolj važno obratno, in sicer kako se ples čuti. Tega ne pozabi nikoli\!
+WCS je tehnično izjemno zahteven ples. Sistem tekmovanj, sploh v Evropi, že od začetnika zahteva ogromno znanja in veščin. Horizontalne vsebine WCS, ki vsebujejo različne figure, *footworke* ipd. so pri tekmovanjih drugotnega pomena. Važna je predvsem plesna tehnika, ki jo najlažje pokažemo v osnovnih figurah. Poleg tega je ocenjevanje vizualno. Važno je, kako je ples videti, ne kako se čuti. Vsi družabni plesalci pa zelo dobro vemo, da je precej bolj važno obratno, in sicer kako se ples čuti. Tega ne pozabi nikoli\!
 
-#### Opozorilo
-
-West coast swing nima popolnoma eksplicitno postavljenih kriterijev ocenjevanja za posamezne tekmovalne kategorije. Kriteriji so okvirni in so našteti v nadaljevanju, njihovo upoštevanje in poudarki pa so odvisni od posameznega sodnika. Nekateri sodniki v *novice* kategoriji, sploh v nemško govorečem okolju, se posvečajo največ delu nog, drugi spet gledajo plesno držo, tretjim je pomembno, da se zabavate … Krmarjenje v takšnem okolju je za tekmovalca, ki je nekje na meji uvrstitve v višji krog, lahko zelo težavno, celo frustrirajoče, saj so njegovi rezultati obremenjeni z ogromno šuma (naključij) in včasih ni očitno, da so rezultati res korelirani s plesnim znanjem.
+> **Opozorilo:** West coast swing nima popolnoma eksplicitno postavljenih kriterijev ocenjevanja za posamezne tekmovalne kategorije. Kriteriji so okvirni in so našteti v nadaljevanju, njihovo upoštevanje in poudarki pa so odvisni od posameznega sodnika. Nekateri sodniki v *novice* kategoriji, sploh v nemško govorečem okolju, se posvečajo največ delu nog, drugi spet gledajo plesno držo, tretjim je pomembno, da se zabavate … Krmarjenje v takšnem okolju je za tekmovalca, ki je nekje na meji uvrstitve v višji krog, lahko zelo težavno, celo frustrirajoče, saj so njegovi rezultati obremenjeni z ogromno šuma (naključij) in včasih ni očitno, da so rezultati res korelirani s plesnim znanjem.
 
 ##### VRSTE ŠUMA (NAKLJUČIJ) IN PRISTRANSKOSTI
 
@@ -34,24 +32,24 @@ Dejavniki, ki pa vedno ostajajo in naj bi se jim sodniki izognili, so: čustvene
 
 Kategorij elementov je sicer več in njihova sistematizacija je odvisna od avtorja. Chuck Brown jih v svojem izobraževanju za sodnike, ki ga povzemamo v tem poglavju, našteje 9 (Brown, 2023). To so:
 
-* Timing (timing)
-* Timsko delo (teamwork)
-* Tehnika (technique)
-* Vsebina (content)
-* Težavnost (difficulty)
-* Kontast (contrast)
-* Športno obnašanje (sportmanship)
-* Muzikaličnost (musicality)
-* Prezentacija (presentation)
+* [Timing]{.crit-timing} (timing)
+* [Timsko delo]{.crit-timsko-delo} (teamwork)
+* [Tehnika]{.crit-tehnika} (technique)
+* [Vsebina]{.crit-preostali} (content)
+* [Težavnost]{.crit-preostali} (difficulty)
+* [Kontast]{.crit-preostali} (contrast)
+* [Športno obnašanje]{.crit-preostali} (sportmanship)
+* [Muzikaličnost]{.crit-muzikalicnost} (musicality)
+* [Prezentacija]{.crit-prezentacija} (presentation)
 
-V svoji prezentaciji Chuck govori tudi o eksplicitnem ocenjevanju naslednjih elementov, ki se tako ali drugače navezujejo na zgornje kategorije (večinoma pa veljajo za višje kategorije):
+V svoji prezentaciji Chuck Brown govori tudi o eksplicitnem ocenjevanju naslednjih elementov, ki se tako ali drugače navezujejo na zgornje kategorije (večinoma pa veljajo za višje kategorije):
 
-* Kemija (chemistry)
-* Dihanje (breath)
-* Prenos teže (weight transfer)
-* Izvedba (execution)
-* Čustvena povezava (emotional connection)
-* Simetrija (symmetry \- partnership)
+* [Kemija]{.crit-timsko-delo} (chemistry)
+* [Dihanje]{.crit-timing} (breath)
+* [Prenos teže]{.crit-tehnika} (weight transfer)
+* [Izvedba]{.crit-preostali} (execution)
+* [Čustvena povezava]{.crit-timsko-delo} (emotional connection)
+* [Simetrija]{.crit-timsko-delo} (symmetry \- partnership)
 
 Tematika, ki pogosto ostane skrita v debatah o ocenjevanju, pa je kvaliteta gibanja (quality of movement), ki je glede na vizualno naravo ocenjevanja verjetno ena najbolj bistvenih prvin, ki te bodo vodile do tekmovalnih uspehov. Kvaliteta gibanja je razpršena med prvine kot so: tehnika, muzikaličnost, kontrast in prezentacija.
 

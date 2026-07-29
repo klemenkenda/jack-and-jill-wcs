@@ -32,7 +32,7 @@ V nekem trenutku, običajno je to začetek plesne sezone, ki ga lahko postavimo 
 
 <div class="table-wrap">
 <table>
-<caption>Merila SMART</caption>
+<caption>Sistem SMART</caption>
 <thead>
 <tr><th scope="col">Črka</th><th scope="col">Pomen</th><th scope="col">Pojasnilo</th></tr>
 </thead>
@@ -61,7 +61,7 @@ V nekem trenutku, običajno je to začetek plesne sezone, ki ga lahko postavimo 
 
 <div class="table-wrap">
 <table>
-<caption>Merila CLEAR</caption>
+<caption>Sistem CLEAR</caption>
 <thead>
 <tr><th scope="col">Črka</th><th scope="col">Pomen</th><th scope="col">Pojasnilo</th></tr>
 </thead>
@@ -77,7 +77,21 @@ V nekem trenutku, običajno je to začetek plesne sezone, ki ga lahko postavimo 
 
 V plesu se sistema SMART(ER) in CLEAR dopolnjujeta. Prvi sistem zagotavlja stukturiranost, logičnost in jasne cilje, osredotočen je na merljivost in realnost (odličen za pripravo na Jack and Jill v nižjih kategorijah, kjer je poudark na individualni tehniki). Drugi sistem zagotavlja prilagodljivost, vključuje čustveno komponento in dinamično okolje, osredotočen je na motiviranje in sodelovanje (primernejši je za umetniške in skupinske cilje, npr. pripravo rutin, strictly).
 
-Več o oblikovanju konkretnih plesnih ciljev si preberite v razdelku o privatnih urah (spodaj).
+**Primeri dobrih ciljev** na WCS so recimo:
+
+* izboljšanje zakasnjenega prenosa teže na 4 v osnovnih figurah v naslednjih 3 mesecih (cilj ustreza vsem kriterijem SMART, evalvacijo lahko izvajamo s pomočjo video posnetkov ali mentorja in prilagodimo trening),
+* izboljšanje strukture fraze za leaderja: začetek v zaprti drži, nato osnovne figure, nato bolj komplicirana figura, ki jih sledi priprava na *phrase change,*
+* učenje 4 figur za *phrase change*, ki bodo imele prehod v različnih dobah (1, 3, 5, 7).
+
+**Primeri slabih ciljev** pa so:
+
+* uvrstitev v finale na naslednjem tekmovanju,
+* zmaga na naslednjem strictly tekmovanju,
+* prehod v kategorijo intermediate do konca leta.
+
+Slabi cilji imajo sicer precej dobrih lastnosti, predvsem so objektivno merljivi, pomenljivi in časovno omejeni. Njihova edina težava je, da niso nujno dosegljivi ali dovolj specifični. Zaradi številnih dejavnikov, zaradi katerih je v WCS tekmovanjih prisotnega precej šuma, ima namreč tekmovalec samo delen vpliv na svoj rezultat. Dobri cilji so tisti, ki so odvisni samo od tekmovalca samega, hkrati pa zelo specifično vsebinsko usmerjajo trening.
+
+Zadnji "slabi cilj" mogoče ni zares slab. Eno leto, sploh, če ima tekmovalec dobro podlago, je povsem dovolj za prehod v naslednjo kategorijo. Recimo, če tekmovalec planira obisk 12 festivalov v enem letu, lahko delno računa da bo šum imel manjšo vlogo v primerjavi z njegovim znanjem in pripravljenostjo. Drži tudi to, da je včasih prehod čez mejo neke kategorije očiten. V nekem trenutku tekmovalec doseže merila za npr. kategorijo *novice* in lahko tako računa na konstantno dobre rezultate v predtekmovanju. Mogoče se je tudi naučiti veščin za finale (npr. *spotlight* trening).
 
 ### Ciklizacija treninga
 

@@ -1,3 +1,8 @@
+<figure>
+<img src="../images/01-2-vstop-na-tekmovanje.jpg" alt="Ilustracija: novinec skozi vrata z vrtinčastim portalom vstopa na tekmovalno plesišče, kjer sodniki z beležkami spremljajo plesne pare, občinstvo pa ploska." />
+<figcaption>Vstop na svoje prvo tekmovanje.</figcaption>
+</figure>
+
 ## Prvič na tekmovanje
 
 ### Korak za korakom

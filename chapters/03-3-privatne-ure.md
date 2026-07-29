@@ -53,20 +53,20 @@ Na privatno uro običajno pripeljemo partnerja (rečemo mu tudi *dummy*). To je 
 <figcaption>Video analiza tekmovalnega nastopa.</figcaption>
 </figure>
 
-Koristno je, če vodite dnevnik lekcij, ki ste jih dobili na privatnih urah (primer je na spodnji sliki). Bistveno je, da si zabeležite, kaj morate popraviti, da imate neko navodilo, kako to popraviti (npr. povezavo na video posnetek, lahko prek datuma in učitelja) in nek indikator, kako uspešni ste bili pri treningu. 
+Koristno je, če vodite dnevnik lekcij, ki ste jih dobili na privatnih urah (primer je na spodnji sliki). Bistveno je, da si zabeležite, kaj morate popraviti, da imate neko navodilo, kako to popraviti (npr. povezavo na video posnetek, lahko prek datuma in učitelja) in nek indikator, kako uspešni ste bili pri treningu.
 
 <figure>
 <img src="../images/03-3-dnevnik-privatnih-ur.png" alt="Preglednica dnevnika privatnih ur s stolpci Tip, Opis, Učitelj, Leto, % napredka, Čas in Trud, z vrsticami barvno označenimi glede na doseženi napredek (od rdeče do zelene)." />
 <figcaption>Izsek iz dnevnika privatnih ur.</figcaption>
 </figure>
 
-Za vadbo stvari, ki ste jih izvedeli na privatni uri, lahko izkoristite samostojne treninge solo ali v paru, doma ali v plesni dvorani, preplesavanja in včasih tudi zabave. 
+Za vadbo stvari, ki ste jih izvedeli na privatni uri, lahko izkoristite samostojne treninge solo ali v paru, doma ali v plesni dvorani, preplesavanja in včasih tudi zabave.
 
-Različni ljudje se učimo na različne načine. V grobem je bolje določeno tehniko vaditi omejen čas (npr. 5-15 minut) in se pri tem osredotočiti na eno samo stvar. Npr. vadimo zakasnjen prenos teža na prvo dobo (in se požvižgamo na vse ostale). 
+Različni ljudje se učimo na različne načine. V grobem je bolje določeno tehniko vaditi omejen čas (npr. 5-15 minut) in se pri tem osredotočiti na eno samo stvar. Npr. vadimo zakasnjen prenos teža na prvo dobo (in se požvižgamo na vse ostale).
 
 Privatne ure brez pripadajočega treninga večinoma nimajo veliko haska.
 
-**Pomembno:** S treningom določene tehnike pogosto pokvarimo druge (dobre) navade. Splača se to večkrat preveriti. Npr. z zakasnjenim prenosom teže na 1 lahko včasih podremo povezavo s partnerjem ali celo izvajanje koraka nazaj pri leaderju v začetku figure.
+> **Pomembno:** S treningom določene tehnike pogosto pokvarimo druge (dobre) navade. Splača se to večkrat preveriti. Npr. z zakasnjenim prenosom teže na 1 lahko včasih podremo povezavo s partnerjem ali celo izvajanje koraka nazaj pri leaderju v začetku figure.
 
 <figure>
 <img src="../images/03-3-vaja-prinasa-rezultate.jpg" alt="Plesni par med dinamično figuro: plesalka je nagnjena nazaj v naslonu, plesalec jo podpira." />
