@@ -114,21 +114,25 @@ Skupina tehnik, ki se nanaša na delo s telesom – ravnotežje, mišični nadzo
 
 **Body flight and energy (sending foot, receiving foot):** Ko vadimo delayed korake, se običajno zgodi, da gibanje postane intervalno, saj se dogaja šele na “in” v glasbi, na udarec pa telo običajno miruje. V neki točki želimo, da je gibanje telesa zvezno, pri tem pa vseeno spoštujemo zakonitosti *delayed* korakov in razporeditve teže.
 
-**Artikulacija stopal:** rolanje stopal (na in s tal)
+**Artikulacija stopal:** rolanje stopal (na in s tal).
 
-**Tehnika v obratih:** spotting, rotacija bokov, plié
+**Tehnika v obratih:** spotting, rotacija bokov, plié.
 
-**Akcija nog:** ravna-ravna, ravna-upognjena, upognjena-upognjena (dovoljeno v stiliziranih delih, sicer izgleda slabo)
+**Akcija nog:** ravna-ravna, ravna-upognjena, upognjena-upognjena (primerno za uporabo v stiliziranih delih, sicer izgleda kot napaka).
 :::
 
 ##### TEHNIKA V PARU
 
 ::: box
 
-- Prostor
+**Prostor**: Ali par pleše v pravi smeri (*slot*)? Ali *leader* obvlada projekcijo (*lead projection*)? Ali si *follower* vzame svoj *slot*? Je *leader* v osnovi bolj statičen? Ali pri hitrejšem tempu vseeno pomaga *followerju* s prevzemanjem dela potovanja in krajšo razdaljo (*frame*)? Tipično želita biti plesalca na 4 precej blizu skupaj. To jima daje več kontrole, da pokažeta dinamiko *stretcha* v *anchor stepu*. Pri tem elementu gre torej predvsem za nadziranje razdalje med plesalcema.
+
 - Razmerje individualnih plesnih tehnik obeh partnerjev
-- Ujemanje pri stopnji prenosa teže
-- Deljena teža, podpora teži, *compression* in protiutež (*through extension and/or leverage*)
+
+**Ujemanje pri stopnji prenosa teže**: Chuck Brown v tovrstno ujemanje polaga ogromno pozornosti. Vsak korak prenos teže naj bo sinhroniziran (npr. na 4 v *sugar pushu* naj *follower* inicira prenos teže *leaderja*). Stephanie Tschom predvsem poudarja, da naj bo *leader* dovolj potrpežljiv, da počaka, da *follower* dokonča svoj zadnji korak (*anchor step*). Šele potem lahko prične s preusmerjanjem. 
+
+**Deljena teža, podpora teži**: Tu  na začetnih stopnjah predvsem govorimo o izrazih kot sta *compression* in *stretch*. Ali oba elementa izhajata iz telesa (naklon oz. *pitch/poise*)?
+
 - Napetost v telesu in rokah (*resisted release*)
 - Vodenje s telesom in odziv sledilca (akcija, reakcija)
 - Partnerstvo (*partnering*) and pattern execution
@@ -136,15 +140,17 @@ Skupina tehnik, ki se nanaša na delo s telesom – ravnotežje, mišični nadzo
 
 #### Timsko delo (teamwork) {.crit-timsko-delo}
 
-##### POVEZAVA (CONNECTION)
+##### POVEZAVA (*CONNECTION*)
 
 ::: box
 
-- Taktilna
+**Taktilna**: Vsaj v Sloveniji predstavlja taktilna povezava med partnerjema sveti gral obvladovanja plesa. In, resnici na ljubo, v povprečju nismo slabi v tem, dasiravno obstaja kar nekaj izjem, nad katerimi se pritoži prenekatera plesalka ali plesalec. Ker smo v tem dobri, je diskrepanca med užitkom v plesu in rezultatom na tekmovanju za nekega plesalca lahko zelo velika. Taktilne povezave sodniki ne morejo čutiti. O njej lahko samo sklepajo na podlagi drugih elementov (npr. ali *leader* vodi s telesom, ali roke v paru rišejo prabolo z minimumom pri dlaneh ipd.). Nekateri sodniki (sploh madžarski) spremljajo tudi uporabo lokov (*arches*). Ali *leaderjeva* roka (in tudi telo!) sledi naravnemu gibanju *followerja*? To so stvari, ki jih v Sloveniji ne obvladamo in zaradi katerih so *leaderji* pogosto kaznovani.
+
 - Vizualna
-- Ritmična
-- Muzikalična
-- Čustvena (kemija)
+- Ritmična in muzikalična
+ 
+**Čustvena (kemija)**: Z določenimi partnerji imamo odlične plese že prvič, določenim pa se izogibamo. Tudi v družabnem plesu je naloga obeh, da poskusita ustvariti kar najboljše vzdušje. Podobno je na tekmovanju. Pri tem je potrebno vzpostaviti pristno povezavo, saj se nepristnost pri ljudeh, ki niso posebej dobri igralci, vidi na daleč. Najboljši recept za dobro kemijo sta odprtost in pretvarjanje napak v zabavne priložnosti.
+
 :::
 
 ##### STILSKA SIMETRIJA IN USKLAJEVANJE CENTRA
@@ -157,11 +163,9 @@ Ujemanje stopnje prenosa teže in deljenega centra
 
 ::: box
 
-- Poslušanje
-- Govorjenje
-- Glasbena
-- Deljenje časa
+- Poslušanje in govorjenje, deljenje časa
 - Klic in odgovor (*call and response*)
+- Glasbena
 - Dovoliti, da se ples zgradi brez prisile
 - Intangible connection/chemistry
 - Couple projection
@@ -173,12 +177,17 @@ Ujemanje stopnje prenosa teže in deljenega centra
 
 ::: box
 
-- Pulz
-- Glasbena frazeologija in struktura, plastičenje (layering)
-- Ujemanje z glasbenim stilom
+**Pulz**: Večina glasbe v west coast swingu ima poudarjen *upbeat* (2, 4, 6, 8). Občasno želimo z gibanjem telesa nakazati ta pulz. To najlažje naredimo npr. z iztegovanjem kolen (noge) ali pa s prsnim košem (sunek naprej/navzgor, pri glasbi ki daje bolj prizemljen občutek, npr. pri *bluesu* včasih tudi nazaj/navzdol). Kadar imamo v glasbi poudarjek med dobama (na "in"), lahko uporabimo tudi t.i. *double bounce* tehniko.
+
+**Glasbena frazeologija in struktura**: Ta element je predvsem v domeni *leaderja*. Na začetku želimo (*novice*) predvsem ujeti prehod med dvema deloma pesmi (kiticama), ki mu pravimo sprememba fraze oz. bolj domače *phrase change*. *Leader* mora torej pozorno poslušati (ali šteti) glasbo in ob spremembi izvesti figuro, ki bo poudarila prvo dobo v novi frazi. Nekoliko dlje gremo še s strukturo (pomembno za *novice* finale in naprej), ko si želimo z izborom elementov in načina plesa prikazati dinamiko. Običajno začnemo počasi, v zaprti drži, preidemo v osnovne figure in nadaljujemo z bolj kompleksno figuro, ki se konča na koncu fraze. Dinamiko ponovimo v naslednji frazi, prav tako pa znotraj celotne skladbe. Pazimo tudi na to, ali bo nov prehod na višjo ali na nižjo energijo in uporabimo za to ustrezne elemente. 
+
+**Ujemanje z glasbenim stilom**: Poznamo več različnih stilov glasbe, npr. akustična, hip hop, blues ipd. Iz posnetka plesa (če izključimo zvok), bi moral gledalec ugotoviti, za kakšno zvrst glasbe gre. Pri akustični glasbi bo ples bolj tekoč, pri hip hopu bolj odsekan, pri bluesu bomo videli krajši frame in večjo uporabo kotov ter elementov, tipičnih za blues.
+
 - Čustvena glasbena povezava (“ples iz srca”)
 - Timing in ritem (in variacije)
-- Swing akcija
+
+**Swing akcija**: 
+
 - Poznavanje glasbe
 :::
 
@@ -195,13 +204,18 @@ Ujemanje stopnje prenosa teže in deljenega centra
 
 ::: box
 
-- Obrazna mimika
-- Emotional conveyance
-- Trenutki, ki si jih zapomnimo
-- Plesne tehnike in osnove
-- **Atletske spodobnosti:** fleksibilnost, moč, hitrost
-- Samozavest
-- X faktor
+**Obrazna mimika**: Če v pretekmovanju izgledaš, kot da ti je tekmovati grozno, potem zelo verjetno ne spadaš v finale, saj boš tam še bolj trpel. Vsaj posredno obrazna mimika vpliva na sodnika, čeprav je ta 100% osredotočen na plesno tehniko. V višjih kategorijah pa je pomembno tudi vzpostavljanje kontakta s plesalcem in s publiko.
+
+**Trenutki, ki si jih zapomnimo**: Predvsem v višjih kategorijah bodo najbolje ocenjeni plesi, ki vključujejo takšne trenutke. Večinoma so povezani z interpretacijo glasbe (poudarki, besedilo) ter plesnim humorjem. Včasih lahko slišite, da je nastop *championov* bolj *stand-up* kot pa ples. Lahko pa jih dosežete tudi s kakšno individualno veščino. Npr. uporaba *moonwalk* v pravem momentu ali določenih elementov iz drugih plesov (npr. hip-hopa). V ta del spada tudi pravilna uporaba *downstage* (proti publiki) in *upstage* (stran od publike) elementov. Npr. *phrase change* naj bo vedno *downstage*.
+
+**Plesne tehnike in osnove**: Ni naključje, da profesionalni plesalci hitro napredujejo v tekmovalnem sistemu, čeprav se mogoče "zmerno treniranemu" očesu zdi, da neutemeljeno. Ti plesalci razliko do ostalih pokažejo z dodelano osnovno plesno tehniko in kontrolo telesa.
+
+**Samozavest in faktor X**: Samozavest pogosto odraža več kot polovico ocene. Odraža se v drži telesa in v obrazni mimiki. Če si prepričan vase, boš lažje prepričal tudi druge. Poleg tega je sistem, kot smo spoznali, naravnan k temu, da večina tekmovalcev doživlja neuspeh za neuspehom. Ni se težko priključiti temu vlaku. Pogosto lahko zato pri tekmovalcih vidimo, da uspehi prihajajo v valovih. Pozitivna povratna zanka samo še spodbuja rast ali izgubo samozavesti. Na t. i. faktor X pa po definiciji posameznik nima vpliva (vsaj ne na kratki rok). Nekateri ljudje imajo prirojeno karizmo (ki je lahko posledica različnih značajskih lastnosti, od igrivosti in humorja do umirjenosti in naravne privlačnosti).
+
+**Atletske spodobnosti**: fleksibilnost, moč, hitrost.
+
+**Čustvena izraznost**: Gre za nadgradnjo obrazne mimike (predvsem za višje kategorije), kjer nadgradimo paleto čustev v povezavi z glasbo. Pomembna je sposobnost komunikacije znotraj para ter prenosa teh čustev na publiko.
+
 :::
 
 #### Preostali elementi {.crit-preostali}
@@ -210,11 +224,11 @@ Ujemanje stopnje prenosa teže in deljenega centra
 
 ::: box
 
-- **Plesne figure** (*patterns*): 
-- **Delo nog** (*footwork*):
-- Stilski elementi in gibanje
-- **Ritmične variacije**: 
-- Izvedba
+**Plesne figure** (*patterns*): Plesne figure običajno v začetnih kategorijah (do *intermediate* finala) niso v ospredju. Pogosto slišimo, da je bolj pomembno, da izvedemo kvalitetne osnove (sodnik nas navsezadnje gleda le nekaj sekund), v katerih pokažemo kvalitetno izvedbo tehničnih elementov (prenos teže, vodenje s telesom ipd.). Pogosto to drži, vseeno pa naj to plesalca ne odvrne od tega, da kvalitetno izvede kakšno bolj komplicirano figuro (npr. telemark, spin na eni nogi ipd.). Uravnotežen razvoj plesalca je pomemben in bo prispeval k hitrejšemu napredovanju na dolgi rok. Vsekakor se od *intermediate*, *advanced*, *all-star* in *champion* plesalcev pričakuje izvedba ustreznih figur. Z opazovanjem finala v posamezni kategoriji se prav hitro pokaže, katere so te ustrezne figure.
+
+**Delo nog in ritmične variacije** (*footwork*): Predvsem v *novice* kategoriji je pomembno, da se raznolikost v ples ne vnaša toliko s pomočjo figur, pač pa s pomočjo raznolikosti v osnovnih figurah. Uporabite različne variacije *anchor step*-a. Začnite figuro z *delayed 1* ali s *kick-ball change*. Uporabite *double resistence* (v hitri in v počasni izvedbi).
+
+**Stilski elementi in gibanje**: Delo nog in ritmične variacije lahko nadgradite z variacijami v gibanju. Ustvarite krajšo ali daljšo razdaljo v različnih časovnih intervalih. Predvsem za follower-je je pomemben t.i. *styling* z elementi, ki lahko služijo *musicalityju* ali enostavno naredijo vizualno podobo plesa lepšo. Pomembna (tudi za *leaderja*) je drža rok ipd.
 :::
 
 ##### TEŽAVNOST
