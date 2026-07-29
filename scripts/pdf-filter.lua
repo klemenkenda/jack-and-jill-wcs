@@ -169,6 +169,19 @@ function Header(el)
     ))
     return { marker, el }
   end
+  -- A non-chapter heading (e.g. "#### Timing {.crit-timing}") tagged with
+  -- one of the same crit-* classes used inline in the NEWCOMER/NOVICE
+  -- criteria boxes: color the whole heading to match, same class->function
+  -- mapping Span uses below.
+  for class, func in pairs(SPAN_CLASS_FUNCS) do
+    if el.classes:includes(class) then
+      local new_content = pandoc.List({ pandoc.RawInline("typst", "#" .. func .. "[") })
+      new_content:extend(el.content)
+      new_content:insert(pandoc.RawInline("typst", "]"))
+      el.content = new_content
+      return el
+    end
+  end
   return nil
 end
 

@@ -57,7 +57,7 @@ V naslednjih podpoglavjih sledi splošen opis posameznih elementov, podrobnejši
 
 **Pomembno: Vsaka naslednja tekmovalna kategorija zajema celotno bazično znanje predhodnih kategorij. Če več tekmovalcev v posamezni skupini zadovoljivo izpolnjuje osnovne kriterije za to kategorijo, bo sodnik za razvrstitev uporabil kriterije, ki veljajo za višjo kategorijo.**
 
-#### Timing
+#### Timing {.crit-timing}
 
 ::: box
 **Ritem in variacije:** obvladovanje osnovnega WCS ritma (koraki, trokoraki) in variacij ritma, npr. sinkopirane variacije za določene blues skladbe.
@@ -79,7 +79,7 @@ V naslednjih podpoglavjih sledi splošen opis posameznih elementov, podrobnejši
 
 **Vpogled v zakulisje:** Karin Kakun pravi, da do nivoja advanced ne ocenjuje in ne bi želela, da sodniki ocenjujejo sinkopiran (swung) ritem.
 
-#### Tehnika
+#### Tehnika {.crit-tehnika}
 
 Pogosto je tehnika definirana kot “kako dobro počneš to, kar počneš” (Brown, 2023). Tehniko sicer razdelimo na dva dela, na indvidualno tehniko in tehniko v paru (*partnership*). Tehnika je zelo široka in razvejana kategorija, obstajajo pa elementi, ki so pomembnejši od ostalih. Po Brownu so to: *centering*, ravnotežje (balance), kvaliteta gibanja (*quality of movement*) in prezentacija (*presentation*).
 
@@ -134,7 +134,7 @@ Skupina tehnik, ki se nanaša na delo s telesom – ravnotežje, mišični nadzo
 - Partnerstvo (*partnering*) and pattern execution
 :::
 
-#### Timsko delo (teamwork)
+#### Timsko delo (teamwork) {.crit-timsko-delo}
 
 ##### POVEZAVA (CONNECTION)
 
@@ -167,7 +167,7 @@ Ujemanje stopnje prenosa teže in deljenega centra
 - Couple projection
 :::
 
-#### Muzikaličnost
+#### Muzikaličnost {.crit-muzikalicnost}
 
 ##### SPLOŠNO
 
@@ -191,7 +191,7 @@ Ujemanje stopnje prenosa teže in deljenega centra
 - Tempo
 :::
 
-#### Prezentacija
+#### Prezentacija {.crit-prezentacija}
 
 ::: box
 
@@ -204,16 +204,16 @@ Ujemanje stopnje prenosa teže in deljenega centra
 - X faktor
 :::
 
-#### Preostali elementi
+#### Preostali elementi {.crit-preostali}
 
 ##### VSEBINA
 
 ::: box
 
-- Plesne figure (patterns)
-- Delo nog (footwork)
+- **Plesne figure** (*patterns*): 
+- **Delo nog** (*footwork*):
 - Stilski elementi in gibanje
-- Ritmične variacije
+- **Ritmične variacije**: 
 - Izvedba
 :::
 
@@ -227,20 +227,22 @@ Plesni elementi, ki zahtevajo več moči, ravnotežja, centra, hitrosti in fleks
 
 ::: box
 
-- Variacije v hitrosti
-- Koti, loki (krožnice)
-- Floor craft and floor position
-- Legato in staccato
-- Plesni stil in variacije gibanja
+**Koti, loki (krožnice)**: Predvsem koti so pomembni v nižjih kategorijah, saj dodajo k raznolikosti plesa. Običajno začetniki plešejo precej pravokotno, kar pomeni - da je linija ramen *leaderja* in *followerja* pogosto poravnana. Z odpiranjem lahko že v osnovnih figurah dosežemo različen efekt, če jih npr. vodimo odprti ali zaprti (in ne vedno samo v nevtralni poziciji).
+
+**Variacije v hitrosti**: Najbolj osnovna variacija hitrosti je uporaba dvojnega *timinga* (1 korak na 2 dobi). Tak način plesa pride v poštev v začetku zelo počasne skladbe ali v delu, ko se skladba močno umiri. Bolj dinamičen pristop (ki ga npr. pogosto uporabljata Jordan in Tatiana) izhaja iz Roystonove šole, in sicer vključuje pripravo dramatičnega momenta (v angleškem jeziku ***anticipation*** → ***acceleration*** → ***delivery***). Izgradnja pričakovanja (nekakšno zavlačevanje), ki se potem razreši čez pospešitev (kontrast!) in končno izvedbo (npr. popolno ustavitev, *break*).
+
+**Floor craft and floor position**: Ta del je predvsem pomemben za kategorije, kjer se finale običajno izvaja v formatu *spotlight*. Tu običajni ples v slotu na omejenem delu plesišča ni prav posebej zanimiv, sploh, če je oder velik. Tu je pomembno, da par potuje po prosturu, ne samo naprej in nazaj, temveč tudi v stran. Poleg tega je pomembno, da izkoristi tudi možnost začasne spremembe slota (do osmice in pol), ki lahko npr. vzpostavi kontakt s publiko ali pomaga pri premikanju po prostoru. V tem elementu npr. blesti Benji Schwimmer.
+
+**Plesni stil in variacije gibanja**: Robert Royston v svoji metodi povzema 6 različnih dimenzij, ki zaznamujejo kvaliteto gibanja (*sustain*, *percussive*, *suspend*, *collapse*, *vibratory*, *swing*). S kombinacijo različnih načinov lahko prikažemo nekaj kontrasta. Tipičen kontrast je med *legato* in *staccatto* gibanjem. Prvo je počasno, tekoče, drugo pa hitro, pospešno in odrezano. Drugi tip bi bil zopet tekoče zvezno gibanje na istem nivoju ter t. i. *double bounce* gibanje, ki lahko zaznamuje večjo ritmičnost (predvsem poudarke na polovično dobo - na *in*) določnega dela skladbe. Vse te stvari nastopajo v parih, saj samo razlika lahko pokaže kontrast.
 :::
 
 ##### ŠPORTNO OBNAŠANJE
 
 ::: box
 
-- Ego
-- Odnos
-- Podpora skupnosti
+**Ego in odnos**: Nekateri tekmovalci (predvsem v primeru, da gre za krepko boljšega plesalca v paru) v želji po uspehu povsem "povozijo" svojega partnerja, kar se še posebej dobro vidi pri _leaderjih_. Naravno je, da večjo odgovornost za ples prevzame partner, ki mu glasba in ostale okoliščine bolje ustrezajo, vseeno pa še vedno gre za ples v paru in ga tako soustvarjata oba plesalca. Tudi sicer (npr. v družabnem okolju) je naloga boljšega plesalca, da prilagodi ples, tako da bo celostno gledano kar najboljši. To pa ne bo, npr. če bo plesalec na silo izsilil določene figure.
+
+**Podpora skupnosti**: Ta del je za razvoj našega plesa zelo pomemben, saj razvoj temelji predvsem na tistih posameznikih, ki uspejo (s karizmo, požrtvovalnostjo) angažirati večje skupine somišljenikov. Ta kriterij sicer ni objektivno prisoten pri ocejnevanju (mogoče kvečjemu vpliva na pristranskost pri določenih sodnikih), je bil pa verjetno zgodovinsko pomemben predvsem v času, ko je bil prehod v kategorijo *champion* pogojen z osebnim vabilom (na podlagi tekmovalnih rezultatov, rezultatov v rutinah in podpori skupnosti). Danes to ni več nikakršen pogoj za napredovanje.
 :::
 
 ### Kriteriji po divizijah
