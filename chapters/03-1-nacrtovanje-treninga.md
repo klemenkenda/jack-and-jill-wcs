@@ -1,8 +1,18 @@
 ## Načrtovanje treninga
 
+> Da lahko nek šport efektivno treniramo, moramo poznati njegove karakteristike. Včasih takšnemu pregledu pravimo tudi anamneza športne panoge oz. discipline.
+
 ### Lastnosti WCS
 
-> Da lahko nek šport efektivno treniramo, moramo poznati njegove karakteristike. Včasih takšnemu pregledu pravimo tudi anamneza športne panoge oz. discipline.
+##### PLES V PARU
+
+West coast swing je ples v paru. Uspešen ples v paru zajema  vsebine, ki so bile potrobno opisane že v razdelku 2.1 in jih tu ne bomo ponovno še enkrat navajali. Uspešen plesalec v WCS je tipično nekoliko poseben, stremi k nenehnemu izboljševanju in izpopolnjevanju svojih veščin. K plesu pristopa analitično, odkriva težave in išče, kako jih najbolje popraviti. O vseh prvinah plesa veliko razmišlja. Brez tega te lahko do uspeha na tekmovanju lahko pripelje samo čisti talent.
+
+Vsak uspešen plesalec mora imeti tudi posluh za partnerja. Tradicionalno razumevanje plesa, kjer moški vodi, ženska pa izključno sledi, odškrtneta znaten del užitka (za plesalca in tudi za gledalca) iz WCS-ja. V obeh vlogah morata biti soplesalca sposobna prilagajanja (nivoju, glasbi, drug drugemu), komunikacije, dajanja pobud in sledenja. Dober ples nastane s prepletom treh elementov: glasbe, partnerja in podlage.
+
+##### MUZIKALIČNOST
+
+WCS glasba je pogosto glasba, ki buči s komercialnih radijskih postaj. Zajema predvsem moderne pop skladbe, vsaj na tekmovanjih pa deloma tudi starejše skladbe (ki jih neuko tlačimo v žanr bluesa). Poznavanje glasbe in zakonitosti glasbe je bistveno za interpretacijo in uspešno improvizacijo v plesu. Plesalec mora imeti potrpljenje za poslušanje (včasih tudi precej nekvalitetne in monotone) pop glasbe (ki pa mu s časom lahko bolj priraste k srcu). Uspešni plesalci pogosot poznajo tudi besedila, predvsem pa poudarke. Glasbo je pogosto potrebno poslušati načrtno, v začetku lahko iščemo fraze, kasneje pa "that" dele skladbe, ritmične posebnosti, poudarke ipd. Predvsem na višjih nivojih največji efekt naredi, ko plesalec ujame nepričakovan (struktura glasbe ga ne narekuje) moment. Z leti poslušanja vsak plesalec izoblikuje neke vrste intuicijo, ki mu pomaga pri vseh veščinah povezanih z muzikaličnostjo.
 
 ##### KONDICIJA IN MOČ
 
@@ -24,9 +34,9 @@ Večina tega časa je sicer namenjena nestrukturirani vadbi, plesu za užitek. �
 
 **Primer 2 (za *followerja*):** Med družabnim plesom se fokusiramo na *micromusicality*. Poskušamo zaznati npr. ponavljajoče ritmične ali melodične elemente. Poskusimo jih predvideti in poudariti z izolacijami.
 
-Redno sodelujemo na plesnih tečajih (ki naj bi bili prilagojeni naši ravni). Pri postavljanju ciljev nam bodo najbolj v pomoč privatnih ure z učitelji, cilje pa bomo najbolj učinkovito dosegli s fokusiranim individualnim treningom. Vse tri oblike vadbe so opisane na koncu tega poglavja.
+Najlažje bomo napredovali, če redno sodelujemo na plesnih tečajih (ki naj bi bili prilagojeni naši ravni). Pri postavljanju ciljev nam bodo najbolj v pomoč privatnih ure z učitelji, cilje pa bomo najbolj učinkovito dosegli s fokusiranim individualnim treningom ter treningom v paru. Vse tri oblike vadbe so opisane na koncu tega poglavja.
 
-#### Cilji
+### Sistemi za določanje ciljev
 
 V nekem trenutku, običajno je to začetek plesne sezone, ki ga lahko postavimo na september, je potrebno oblikovati cilje za prihajajoče obdobje. Dobre cilje oblikujemo po sistemu SMART (in po njegovih nadgradnjah ter dopolnitvah SMARTER in CLEAR). Osnovne definicije so podane v spodnjih tabelah.
 
