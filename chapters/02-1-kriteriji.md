@@ -32,24 +32,24 @@ Dejavniki, ki pa vedno ostajajo in naj bi se jim sodniki izognili, so: čustvene
 
 Kategorij elementov je sicer več in njihova sistematizacija je odvisna od avtorja. Chuck Brown jih v svojem izobraževanju za sodnike, ki ga povzemamo v tem poglavju, našteje 9 (Brown, 2023). To so:
 
-* [Timing]{.crit-timing} (timing)
-* [Timsko delo]{.crit-timsko-delo} (teamwork)
-* [Tehnika]{.crit-tehnika} (technique)
-* [Vsebina]{.crit-preostali} (content)
-* [Težavnost]{.crit-preostali} (difficulty)
-* [Kontast]{.crit-preostali} (contrast)
-* [Športno obnašanje]{.crit-preostali} (sportmanship)
-* [Muzikaličnost]{.crit-muzikalicnost} (musicality)
-* [Prezentacija]{.crit-prezentacija} (presentation)
+* [**Timing**]{.crit-timing} (timing)
+* [**Timsko delo**]{.crit-timsko-delo} (teamwork)
+* [**Tehnika**]{.crit-tehnika} (technique)
+* [**Vsebina**]{.crit-preostali} (content)
+* [**Težavnost**]{.crit-preostali} (difficulty)
+* [**Kontast**]{.crit-preostali} (contrast)
+* [**Športno obnašanje**]{.crit-preostali} (sportmanship)
+* [**Muzikaličnost**]{.crit-muzikalicnost} (musicality)
+* [**Prezentacija**]{.crit-prezentacija} (presentation)
 
 V svoji prezentaciji Chuck Brown govori tudi o eksplicitnem ocenjevanju naslednjih elementov, ki se tako ali drugače navezujejo na zgornje kategorije (večinoma pa veljajo za višje kategorije):
 
-* [Kemija]{.crit-timsko-delo} (chemistry)
-* [Dihanje]{.crit-timing} (breath)
-* [Prenos teže]{.crit-tehnika} (weight transfer)
-* [Izvedba]{.crit-preostali} (execution)
-* [Čustvena povezava]{.crit-timsko-delo} (emotional connection)
-* [Simetrija]{.crit-timsko-delo} (symmetry \- partnership)
+* [**Kemija**]{.crit-timsko-delo} (chemistry)
+* [**Dihanje**]{.crit-timing} (breath)
+* [**Prenos teže**]{.crit-tehnika} (weight transfer)
+* [**Izvedba**]{.crit-preostali} (execution)
+* [**Čustvena povezava**]{.crit-timsko-delo} (emotional connection)
+* [**Simetrija**]{.crit-timsko-delo} (symmetry \- partnership)
 
 Tematika, ki pogosto ostane skrita v debatah o ocenjevanju, pa je kvaliteta gibanja (quality of movement), ki je glede na vizualno naravo ocenjevanja verjetno ena najbolj bistvenih prvin, ki te bodo vodile do tekmovalnih uspehov. Kvaliteta gibanja je razpršena med prvine kot so: tehnika, muzikaličnost, kontrast in prezentacija.
 

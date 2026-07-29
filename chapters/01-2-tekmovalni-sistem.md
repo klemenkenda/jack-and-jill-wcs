@@ -58,7 +58,8 @@ Na tekmovanjih pod okriljem WSDC določeno število najbolje uvrščenih tekmova
 <table>
 <caption>Vrednotenje kategorij na WSDC tekmovanjih (Vir: WSDC, 2025)</caption>
 <thead>
-<tr><th scope="col">Razred (tier)</th><th scope="col">Št. tekmovalcev (na vlogo)</th><th scope="col">1\. mesto</th><th scope="col">2\. mesto</th><th scope="col">3\. mesto</th><th scope="col">4\. mesto</th><th scope="col">5\. mesto</th><th scope="col">Dodatna mesta v finalu</th></tr>
+<tr><th scope="col" rowspan="2">Razred (tier)</th><th scope="col" rowspan="2">Št. tekmovalcev (na vlogo)</th><th scope="colgroup" colspan="5">Mesto</th><th scope="col" rowspan="2">Dodatna mesta v finalu</th></tr>
+<tr><th scope="col">1\.</th><th scope="col">2\.</th><th scope="col">3\.</th><th scope="col">4\.</th><th scope="col">5\.</th></tr>
 </thead>
 <tbody>
 <tr><th scope="row">1</th><td>5-10</td><td>3</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td></tr>
@@ -87,15 +88,15 @@ Glede na **razred velikosti ali rang (ang. *tier*)** posamezne kategorije, tekmo
 <table>
 <caption>Organizacija WSDC tekmovanj glede na število prijavljenih tekmovalcev (WSDC, 2025)</caption>
 <thead>
-<tr><th scope="col">Razred (tier)</th><th scope="col">Št. tekmovalcev</th><th scope="col">Št. krogov</th><th scope="col">Predtekmovanje</th><th scope="col">Četrtfinale</th><th scope="col">Polfinale</th><th scope="col">Finale</th></tr>
+<tr><th scope="col">Razred (tekmovalcev)</th><th scope="col">Predtekmovanje</th><th scope="col">Četrtfinale</th><th scope="col">Polfinale</th><th scope="col">Finale</th></tr>
 </thead>
 <tbody>
-<tr><th scope="row">1</th><td>5-10</td><td>1</td><td><span class="val-opcijsko"><strong>opcijsko</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span> (vsaj 5 v finalu)</td></tr>
-<tr><th scope="row">2</th><td>11-19</td><td>1-2</td><td><span class="val-opcijsko"><strong>opcijsko</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
-<tr><th scope="row">3</th><td>20-39</td><td>2</td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
-<tr><th scope="row">4</th><td>40-79</td><td>3</td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
-<tr><th scope="row">5</th><td>80-129</td><td>3-4</td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-opcijsko"><strong>opcijsko</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
-<tr><th scope="row">6</th><td>130+</td><td>3-4</td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-opcijsko"><strong>opcijsko</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>1</strong> (5-10)</th><td><span class="val-opcijsko"><strong>?</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>2</strong> (11-19)</th><td><span class="val-opcijsko"><strong>?</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>3</strong> (20-39)</th><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>4</strong> (40-79)</th><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-ne"><strong>ne</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>5</strong> (80-129)</th><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-opcijsko"><strong>?</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
+<tr><th scope="row"><strong>6</strong> (130+)</th><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-opcijsko"><strong>?</strong></span></td><td><span class="val-da"><strong>da</strong></span></td><td><span class="val-da"><strong>da</strong></span></td></tr>
 </tbody>
 </table>
 </div>
