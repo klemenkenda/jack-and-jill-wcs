@@ -194,14 +194,19 @@
   align(center)[#text(size: 19pt)[#it.body]]
   v(8mm)
 }
-#show heading.where(level: 2): it => context {
-  v(2mm); text(size: 14pt, fill: current-chapter-color.get())[#it.body]; v(2mm)
-}
-#show heading.where(level: 3): it => context {
-  v(1.5mm); text(size: 12pt, fill: current-chapter-color.get())[#it.body]; v(1.5mm)
-}
-#show heading.where(level: 4): it => { v(1mm); text(size: 10.5pt)[#it.body]; v(1mm) }
-#show heading.where(level: 5): it => { v(1mm); text(size: 10pt)[#it.body]; v(1mm) }
+// block(..., sticky: true) is what typst's own default heading rule uses
+// to keep a heading glued to the paragraph that follows it (no orphaned
+// heading alone at the bottom of a page); overriding the show rule to
+// customize size/color loses that for free, so it's reinstated by hand
+// on every level below.
+#show heading.where(level: 2): it => context block(sticky: true)[
+  #v(2mm) #text(size: 14pt, fill: current-chapter-color.get())[#it.body] #v(2mm)
+]
+#show heading.where(level: 3): it => context block(sticky: true)[
+  #v(1.5mm) #text(size: 12pt, fill: current-chapter-color.get())[#it.body] #v(1.5mm)
+]
+#show heading.where(level: 4): it => block(sticky: true)[#v(1mm) #text(size: 10.5pt)[#it.body] #v(1mm)]
+#show heading.where(level: 5): it => block(sticky: true)[#v(1mm) #text(size: 10pt)[#it.body] #v(1mm)]
 
 // Images: same "never wider than the text column" rule as epub's
 // `img { max-width: 100% }`. A fixed page has no dark mode to break, so

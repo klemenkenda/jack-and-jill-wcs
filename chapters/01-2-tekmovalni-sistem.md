@@ -44,7 +44,7 @@ V kategoriji *newcomer* lahko nastopaš samo tako dolgo, dokler ne osvojiš prve
 </table>
 </div>
 
-Ko enkrat v svoji primarni plesni vlogi že tekmuješ v eni od višjih kategorij (*novice*\+), potem lahko na istem tekmovanju v nižji kategoriji tekmuješ tudi v svoji sekundarni plesni vlogi. Npr. če tekmuješ kot leader v *novice* in še nimaš osvojenih točk v vlogi *follower* v *newcomer* kategoriji, lahko v tej nastopiš še kot *follower*. 
+Ko enkrat v svoji primarni plesni vlogi že tekmuješ v eni od višjih kategorij (*novice*\+), potem lahko na istem tekmovanju v nižji kategoriji tekmuješ tudi v svoji sekundarni plesni vlogi. Npr. če tekmuješ kot leader v *novice* in še nimaš osvojenih točk v vlogi *follower* v *newcomer* kategoriji, lahko v tej nastopiš še kot *follower*.
 
 > Ponavadi v sekundarni vlogi tekmuješ eno kategorijo niže, WSDC pa po 1\. 1\. 2025 omogoča, da brez prošnje (*petition*), ki je bila predhodno potrebna, *advanced* in *all star* tekmovalci tekmujejo celo dve kategoriji niže.
 
@@ -101,7 +101,7 @@ Glede na **razred velikosti ali rang (ang. *tier*)** posamezne kategorije, tekmo
 </table>
 </div>
 
-V primeru, da je v določeni vlogi pri 4\. rangu tekmovanja manj kot 10% več tekmovalcev, kot jih narekuje zgornja tabela (kar se na festivalih v naši bližini zgodi pogosto), lahko organizator izpusti organizacijo polfinala, kar skrajša potek tekmovanja (in prinese precej slabe volje tekmovalcem).
+Izvedba predtekmovanj pri v razredu 1 in 2 ter četrtfinala v razredih 5 in 6 je odvisna od organizatorja in ni obvezna. Prav tako v primeru, da je v določeni vlogi pri tekmovanju razreda 4 manj kot 10% več tekmovalcev, kot jih narekuje zgornja tabela (kar se na festivalih v naši bližini zgodi pogosto), lahko organizator izpusti organizacijo polfinala, kar skrajša potek tekmovanja (in prinese precej slabe volje tekmovalcem).
 
 #### Tekmovalni krogi
 
