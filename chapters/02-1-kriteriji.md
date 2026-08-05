@@ -376,41 +376,61 @@ Nazadnje se ustavimo še pri **vsebini**. Kljub temu, da nekateri plesalci poro�
 
 ### Opomnik za sojenje v kategoriji *novice*
 
-- [ ]  Timing
-    - [ ]  Kritični timing
-        - [ ]  Izteg noge ob udarcu
-        - [ ]  Prehiter/prepočasen izteg noge (npr. prehiter, ker je na udarec prenos teže)
-    - [ ]  Tranzicijski timing
-        - [ ]  Postopnost prenosa
-        - [ ]  Napaka: stopanje na celo stopalo
-        - [ ]  Rolanje stopal
-- [ ]  Tehnika
-    - [ ]  Splošna plesna pozicija
-        - [ ]  Pitch in poise
-    - [ ]  Okvir
-        - [ ]  Vodenje s telesom
-        - [ ]  *Resisted release*
-    - [ ]  Koraki
-        - [ ]  Dokončani (predvsem na 6)
-        - [ ]  Rolanje stopal
-        - [ ]  *Turnout* (stopala so rahlo navzven)        
-    - [ ]  Rotacije
-        - [ ]  na 4 (*underrotation*)
-        - [ ]  v anchorju (delno odpiranje telesa)
-        - [ ]  Rotacije na prstih (ne na petah)
-    - [ ]  *Stretch* oz dihanje v *anchor stepu*
-- [ ]  Vsebina
-    - [ ]  Raznolikost figur (za finale)
-    - [ ]  1 težja figura (na frazo)
-    - [ ]  Raznolikost *footworkov*    
-- [ ]  Timsko delo
-    - [ ]  Kako rešujeta nesporazume?
-    - [ ]  Ali si med seboj prisluhneta?
-- [ ]  Muzikalnost in styling
-    - [ ]  Lovljenje spremembe fraze
-    - [ ]  Ima ples strukturo (dramatični lok, sledi glasbi)
-    - [ ]  Mikromuzikalnost
-    - [ ]  Prosta roka
-    - [ ]  Uporaba ritmičnih variacij in poudarkov
-        - [ ]  npr. *double bounce*, *delayed one*, *double resistance*
-    - [ ]  Muzikalni timing (za *intermediate+*)
+#### Timing {.crit-timing}
+
+- **Kritični timing**
+  - Izteg noge ob udarcu
+  - Prehiter/prepočasen izteg noge (npr. prehiter, ker je na udarec prenos teže)
+- **Tranzicijski timing**
+  - Postopnost prenosa
+  - Napaka: stopanje na celo stopalo
+  - Rolanje stopal
+- **Muzikalni timing** (za *intermediate+*)
+  - Uporaba drugih plasti glasbe pri stopanju (glas, instrumenti, *"that"* del skladbe)
+
+#### Tehnika {.crit-tehnika}
+
+- **Splošna plesna pozicija**
+  - Pitch in poise
+- **Okvir**
+  - Vodenje s telesom
+  - *Resisted release*
+- **Koraki**
+  - Dokončani (predvsem na 6)
+  - Rolanje stopal
+  - *Turnout* (stopala so rahlo navzven)
+- **Rotacije**
+  - Na 4 (*underrotation*)
+  - V anchorju (delno odpiranje telesa)
+  - Na prstih (ne na petah)
+- **Stretch / dihanje**
+  - *Stretch* oz. dihanje v *anchor stepu*
+
+#### Vsebina {.crit-preostali}
+
+- **Figure**
+  - Raznolikost figur (za finale)
+  - Ena težja figura na frazo
+- **Footwork**
+  - Raznolikost *footworkov*
+
+#### Timsko delo {.crit-timsko-delo}
+
+- **Povezava**
+  - Kako rešujeta nesporazume?
+  - Ali si med seboj prisluhneta?
+
+#### Muzikalnost in styling {.crit-muzikalicnost}
+
+- **Struktura**
+  - Lovljenje spremembe fraze
+  - Ima ples strukturo (dramatični lok, sledi glasbi)
+- **Mikromuzikalnost**
+  - Mikromuzikalnost
+- **Stil**
+  - Prosta roka
+  - Dodatki za followerja
+- **Ritmične variacije**
+  - Uporaba ritmičnih variacij in poudarkov (npr. *double bounce*, *delayed one*, *kick-ball change*, *double resistance*)
+
+<div style="page-break-after: always;"></div>
