@@ -83,7 +83,7 @@ V naslednjih podpoglavjih sledi splošen opis posameznih elementov, podrobnejši
 
 Pogosto je tehnika definirana kot “kako dobro počneš to, kar počneš” (Brown, 2023). Tehniko sicer razdelimo na dva dela, na indvidualno tehniko in tehniko v paru (*partnership*). Tehnika je zelo široka in razvejana kategorija, obstajajo pa elementi, ki so pomembnejši od ostalih. Po Brownu so to: *centering*, ravnotežje (balance), kvaliteta gibanja (*quality of movement*) in prezentacija (*presentation*).
 
-Celoten razdelek je povzet po gradivu za sodnike (Brown, 2023\) in marsikje presega avtorjevo znanje, zato so pripadajoče razlage lahko omejene ali celo napačne.
+> Celoten razdelek je povzet po gradivu za sodnike (Brown, 2023\) in marsikje presega avtorjevo znanje, zato so pripadajoče razlage lahko omejene ali celo napačne.
 
 ##### INDIVIDUALNA TEHNIKA
 
@@ -108,7 +108,7 @@ Skupina tehnik, ki se nanaša na delo s telesom – ravnotežje, mišični nadzo
 :::
 
 ::: box
-**Gibanje telesa** (tehnike, ki oblikujejo individualnen plesni slog)
+**Gibanje telesa** (tehnike, ki oblikujejo individualnen plesni slog), segmentirano gibanje.
 
 **Linije:** pozicije stopal in *turnout* (stopali sta usmerjeni rahlo navzven), linije nog, iztegi (nog, rok, prstov ipd.), drža, okvir in nošnja telesa
 
@@ -127,11 +127,11 @@ Skupina tehnik, ki se nanaša na delo s telesom – ravnotežje, mišični nadzo
 
 **Prostor**: Ali par pleše v pravi smeri (*slot*)? Ali *leader* obvlada projekcijo (*lead projection*)? Ali si *follower* vzame svoj *slot*? Je *leader* v osnovi bolj statičen? Ali pri hitrejšem tempu vseeno pomaga *followerju* s prevzemanjem dela potovanja in krajšo razdaljo (*frame*)? Tipično želita biti plesalca na 4 precej blizu skupaj. To jima daje več kontrole, da pokažeta dinamiko *stretcha* v *anchor stepu*. Pri tem elementu gre torej predvsem za nadziranje razdalje med plesalcema.
 
-- Razmerje individualnih plesnih tehnik obeh partnerjev
+**Razmerje individualnih plesnih tehnik obeh partnerjev**.
 
 **Ujemanje pri stopnji prenosa teže**: Chuck Brown v tovrstno ujemanje polaga ogromno pozornosti. Vsak korak prenos teže naj bo sinhroniziran (npr. na 4 v *sugar pushu* naj *follower* inicira prenos teže *leaderja*). Stephanie Tschom predvsem poudarja, da naj bo *leader* dovolj potrpežljiv, da počaka, da *follower* dokonča svoj zadnji korak (*anchor step*). Šele potem lahko prične s preusmerjanjem. 
 
-**Deljena teža, podpora teži**: Tu  na začetnih stopnjah predvsem govorimo o izrazih kot sta *compression* in *stretch*. Ali oba elementa izhajata iz telesa (naklon oz. *pitch/poise*)?
+**Deljena teža, podpora teži**: Tu  na začetnih stopnjah predvsem govorimo o izrazih kot sta *compression* in *stretch*, "A" in "V" princip (kasnje lotos, "U" in "人"). Ali oba elementa izhajata iz telesa (naklon oz. *pitch/poise*)? Ali plesalca ustrezno uporabljata podlago (dinamična in ne statična sila)?
 
 - Napetost v telesu in rokah (*resisted release*)
 - Vodenje s telesom in odziv sledilca (akcija, reakcija)
@@ -373,3 +373,44 @@ Nazadnje se ustavimo še pri **vsebini**. Kljub temu, da nekateri plesalci poro�
 <img src="../images/02-1-predavanje-mentalna-priprava.jpg" alt="Predavatelj pred platnom z naslovom 'Tip 3, mental game' predava skupini plesalcev, ki sedijo na rdečih stolih." />
 <figcaption>Predavanje o mentalni pripravi na tekmovanje.</figcaption>
 </figure>
+
+### Opomnik za sojenje v kategoriji *novice*
+
+- [ ]  Timing
+    - [ ]  Kritični timing
+        - [ ]  Izteg noge ob udarcu
+        - [ ]  Prehiter/prepočasen izteg noge (npr. prehiter, ker je na udarec prenos teže)
+    - [ ]  Tranzicijski timing
+        - [ ]  Postopnost prenosa
+        - [ ]  Napaka: stopanje na celo stopalo
+        - [ ]  Rolanje stopal
+- [ ]  Tehnika
+    - [ ]  Splošna plesna pozicija
+        - [ ]  Pitch in poise
+    - [ ]  Okvir
+        - [ ]  Vodenje s telesom
+        - [ ]  *Resisted release*
+    - [ ]  Koraki
+        - [ ]  Dokončani (predvsem na 6)
+        - [ ]  Rolanje stopal
+        - [ ]  *Turnout* (stopala so rahlo navzven)        
+    - [ ]  Rotacije
+        - [ ]  na 4 (*underrotation*)
+        - [ ]  v anchorju (delno odpiranje telesa)
+        - [ ]  Rotacije na prstih (ne na petah)
+    - [ ]  *Stretch* oz dihanje v *anchor stepu*
+- [ ]  Vsebina
+    - [ ]  Raznolikost figur (za finale)
+    - [ ]  1 težja figura (na frazo)
+    - [ ]  Raznolikost *footworkov*    
+- [ ]  Timsko delo
+    - [ ]  Kako rešujeta nesporazume?
+    - [ ]  Ali si med seboj prisluhneta?
+- [ ]  Muzikalnost in styling
+    - [ ]  Lovljenje spremembe fraze
+    - [ ]  Ima ples strukturo (dramatični lok, sledi glasbi)
+    - [ ]  Mikromuzikalnost
+    - [ ]  Prosta roka
+    - [ ]  Uporaba ritmičnih variacij in poudarkov
+        - [ ]  npr. *double bounce*, *delayed one*, *double resistance*
+    - [ ]  Muzikalni timing (za *intermediate+*)
